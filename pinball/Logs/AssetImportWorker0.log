@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16235 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 10175 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,84 +11,353 @@ C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ignac/OneDrive/Documentos/GitHub/proyecto-ciencias-aplicadas/pinball
+C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65034
-Successfully changed project path to: C:/Users/ignac/OneDrive/Documentos/GitHub/proyecto-ciencias-aplicadas/pinball
-C:/Users/ignac/OneDrive/Documentos/GitHub/proyecto-ciencias-aplicadas/pinball
+55946
+Successfully changed project path to: C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
+C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ignac/OneDrive/Documentos/GitHub/proyecto-ciencias-aplicadas/pinball/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.6611
+    VRAM:     5087 MB
+    Driver:   27.20.11030.11001
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002150 seconds.
+Registered in 0.004776 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 30.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  1.943 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000586 seconds.
+Registered in 0.001064 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  1.414 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1481 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 84.9 MB.
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 2.013600 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.056300 ms MarkObjects: 1.608300 ms  DeleteObjects: 0.154000 ms)
+Total: 5.789900 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.090200 ms MarkObjects: 4.943700 ms  DeleteObjects: 0.403800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d7f5a84ee0393cc80cfade72f2370') in 0.008611 seconds
-  Import took 0.010791 seconds .
+  path: Assets/Materials
+  artifactKey: Guid(ab1f8264f8756eb4ba16aa789a3f1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ab1f8264f8756eb4ba16aa789a3f1102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506e856072b360c13d17edd892912535') in 0.026538 seconds
+  Import took 0.032524 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.127596 seconds.
-  path: Assets/Scenes/Escena1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Escena1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298b6f8dfae76fb1b3238c3182ef6602') in 0.007196 seconds
-  Import took 0.009577 seconds .
+  Time since last request: 0.000865 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(102548b31d3ae8f4d82ea8d96e222d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(102548b31d3ae8f4d82ea8d96e222d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27316073d8756c03d86a9b0d791c113') in 0.297286 seconds
+  Import took 0.304041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(69a837cb68cd6da468be32996292e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(69a837cb68cd6da468be32996292e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b4958767c820605f9abf0fe2347b31') in 0.044284 seconds
+  Import took 0.050676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000743 seconds.
+  path: Assets/Materials/New Material 2.mat
+  artifactKey: Guid(9d690e9db7fa3b245992e6f3725a3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 2.mat using Guid(9d690e9db7fa3b245992e6f3725a3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314526a7dc0173156554cf1d0c6a6916') in 0.044009 seconds
+  Import took 0.051265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 283.774061 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(3e8e9f79958581e4386c09a38df0c756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(3e8e9f79958581e4386c09a38df0c756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8f7a9fff279e5a91800903fb16d8df') in 0.027394 seconds
+  Import took 0.034358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.391475 seconds.
+  path: Assets/Materials/Sprites Cancha
+  artifactKey: Guid(24bbaf12d52b70f4aabfddf67f83e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha using Guid(24bbaf12d52b70f4aabfddf67f83e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6bc8779205cc00286ee0d01cbf2615') in 0.022519 seconds
+  Import took 0.029653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011534 seconds.
+  path: Assets/Materials/Sprites Cancha
+  artifactKey: Guid(24bbaf12d52b70f4aabfddf67f83e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha using Guid(24bbaf12d52b70f4aabfddf67f83e700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6bc8779205cc00286ee0d01cbf2615') in 0.010064 seconds
+  Import took 0.017225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.234327 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha sin lineas.jpg
+  artifactKey: Guid(171bb630a5c72a0439684ee37ba43241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha sin lineas.jpg using Guid(171bb630a5c72a0439684ee37ba43241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda4d28a0cf600293377ebf6d93b5e15') in 0.151148 seconds
+  Import took 0.157641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.008866 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha simple animada.jpg
+  artifactKey: Guid(0cdd4445bae39794bbe5e8554162041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha simple animada.jpg using Guid(0cdd4445bae39794bbe5e8554162041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e607e100519f3641895de8e74ecf9f') in 0.037124 seconds
+  Import took 0.044072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007819 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha simple animada.jpg
+  artifactKey: Guid(0cdd4445bae39794bbe5e8554162041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha simple animada.jpg using Guid(0cdd4445bae39794bbe5e8554162041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e607e100519f3641895de8e74ecf9f') in 0.023661 seconds
+  Import took 0.030242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.709808 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg
+  artifactKey: Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg using Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6fa317168f34204bfc57bfabe221e0') in 0.039695 seconds
+  Import took 0.046318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008671 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg
+  artifactKey: Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg using Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6fa317168f34204bfc57bfabe221e0') in 0.032356 seconds
+  Import took 0.039181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.446622 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg
+  artifactKey: Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg using Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db36c9c8d3a785f504f280e101cadac') in 0.037967 seconds
+  Import took 0.043400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012641 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg
+  artifactKey: Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg using Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db36c9c8d3a785f504f280e101cadac') in 0.031361 seconds
+  Import took 0.036473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1231.730757 seconds.
+  path: Assets/Materials/Sprites Cancha/Materials/cancha simple animada.mat
+  artifactKey: Guid(1ee3fddff7815a84283b249b9cf35ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/Materials/cancha simple animada.mat using Guid(1ee3fddff7815a84283b249b9cf35ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b88a9d7a5957c8484980a94a126e7d') in 0.052612 seconds
+  Import took 0.060654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001552 seconds.
+  path: Assets/Objects/Slingshot/tinker.obj
+  artifactKey: Guid(23fe3bea422a6f34a8c885245b1cbcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Slingshot/tinker.obj using Guid(23fe3bea422a6f34a8c885245b1cbcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43db92af071faefa6c85e57c7902b0fa') in 0.257724 seconds
+  Import took 0.264889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/Materials/Sprites Cancha/Materials/cancha simple animada.mat
+  artifactKey: Guid(1ee3fddff7815a84283b249b9cf35ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/Materials/cancha simple animada.mat using Guid(1ee3fddff7815a84283b249b9cf35ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b88a9d7a5957c8484980a94a126e7d') in 0.030932 seconds
+  Import took 0.034791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Objects/Slingshot/tinker.obj
+  artifactKey: Guid(23fe3bea422a6f34a8c885245b1cbcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Slingshot/tinker.obj using Guid(23fe3bea422a6f34a8c885245b1cbcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43db92af071faefa6c85e57c7902b0fa') in 0.120163 seconds
+  Import took 0.127258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.600438 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg
+  artifactKey: Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg using Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15e4f204e4f4f90cd8472092e4d4fda') in 0.033079 seconds
+  Import took 0.039907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006607 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg
+  artifactKey: Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas diagonales.jpg using Guid(cf990a3b1f5676d4d8f49ceb3bcf4e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15e4f204e4f4f90cd8472092e4d4fda') in 0.030722 seconds
+  Import took 0.035332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.221945 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg
+  artifactKey: Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg using Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c42633ae323c8f37b2de0ba0eac0f8') in 0.045447 seconds
+  Import took 0.053228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005918 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg
+  artifactKey: Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha lineas horizontales.jpg using Guid(4890a109de3748441b23604bf7986172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c42633ae323c8f37b2de0ba0eac0f8') in 0.041459 seconds
+  Import took 0.048592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.634669 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha simple animada.jpg
+  artifactKey: Guid(0cdd4445bae39794bbe5e8554162041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha simple animada.jpg using Guid(0cdd4445bae39794bbe5e8554162041d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333587320dc3b5e12d35ed3277b67167') in 0.038162 seconds
+  Import took 0.045061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.026505 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha sin lineas.jpg
+  artifactKey: Guid(171bb630a5c72a0439684ee37ba43241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha sin lineas.jpg using Guid(171bb630a5c72a0439684ee37ba43241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d9b62393afe317c380ee354ab4a468') in 0.045609 seconds
+  Import took 0.051245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001550 seconds.
+  path: Assets/Materials/Sprites Cancha/cancha sin lineas.jpg
+  artifactKey: Guid(171bb630a5c72a0439684ee37ba43241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/cancha sin lineas.jpg using Guid(171bb630a5c72a0439684ee37ba43241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d9b62393afe317c380ee354ab4a468') in 0.039075 seconds
+  Import took 0.048444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3046.964540 seconds.
+  path: Assets/Materials/Sprites Cancha/GaleriaRojos.obj
+  artifactKey: Guid(231c6bc1a0e8f384e8a2f2dec915d3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/GaleriaRojos.obj using Guid(231c6bc1a0e8f384e8a2f2dec915d3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b988d9df54cc34f21212b37b6da0d991') in 0.106810 seconds
+  Import took 0.110332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.158820 seconds.
+  path: Assets/Materials/Sprites Cancha/Galeria azules.obj
+  artifactKey: Guid(af74f7fefbd210c4181f76bb9ec6df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/Galeria azules.obj using Guid(af74f7fefbd210c4181f76bb9ec6df6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a9ea0cb8cabaa43d1dc6257fe77b04') in 0.099350 seconds
+  Import took 0.103803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.508520 seconds.
+  path: Assets/Materials/Sprites Cancha/galeriaAzul.mtl
+  artifactKey: Guid(2b0178a6c478ed84bb7a41550517cbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/galeriaAzul.mtl using Guid(2b0178a6c478ed84bb7a41550517cbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfaa88943d34e6804d687e72ea377a6') in 0.018689 seconds
+  Import took 0.022737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.173142 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(ac3d9042f207aa9469ec6a4ec5e7dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(ac3d9042f207aa9469ec6a4ec5e7dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a267749eb05e45b70c3180996d170ba') in 0.032951 seconds
+  Import took 0.037616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.761821 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(c542e764f759add499fe69819443a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(c542e764f759add499fe69819443a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3002131c382eb45f058ea815aaf64e') in 0.013014 seconds
+  Import took 0.016814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.956816 seconds.
+  path: Assets/Materials/Sprites Cancha/obj.mtl
+  artifactKey: Guid(c6fbc4ed2d74a494c99cb5c7d8f102bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/obj.mtl using Guid(c6fbc4ed2d74a494c99cb5c7d8f102bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6740d8a78f2fd2aad76de47d138a5d1a') in 0.018054 seconds
+  Import took 0.022222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.600627 seconds.
+  path: Assets/Materials/Sprites Cancha/galeria.obj
+  artifactKey: Guid(5dc14ecc73560c1409f1aa0f61246743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/galeria.obj using Guid(5dc14ecc73560c1409f1aa0f61246743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd56ec0d91ad0d6a8cb610847d682d9') in 0.104687 seconds
+  Import took 0.108765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1134.011896 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(ac3d9042f207aa9469ec6a4ec5e7dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(ac3d9042f207aa9469ec6a4ec5e7dd75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b5fd55d7ad3abaf4a4b9377e1a0f4c') in 0.029129 seconds
+  Import took 0.033854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.075734 seconds.
+  path: Assets/Materials/Sprites Cancha/Materials/cancha sin lineas.mat
+  artifactKey: Guid(ecea407fd0a82a546a4f73e493699a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/Materials/cancha sin lineas.mat using Guid(ecea407fd0a82a546a4f73e493699a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eab695019b71ba66e1e34a4a5f114f6') in 0.030164 seconds
+  Import took 0.034308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.742525 seconds.
+  path: Assets/Materials/Sprites Cancha/Materials/cancha lineas diagonales.mat
+  artifactKey: Guid(8c09424b318e39d4bb6a08628a72c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/Materials/cancha lineas diagonales.mat using Guid(8c09424b318e39d4bb6a08628a72c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eae71b23ba0805115e34ef88fafe6e') in 0.027092 seconds
+  Import took 0.030804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Materials/Sprites Cancha/Materials/cancha lineas horizontales.mat
+  artifactKey: Guid(c87b4ab121f4e204cb987444ff455ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites Cancha/Materials/cancha lineas horizontales.mat using Guid(c87b4ab121f4e204cb987444ff455ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b74379a5db94968cf9516c999f2a0a') in 0.028015 seconds
+  Import took 0.031446 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
