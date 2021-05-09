@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 7065 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 8066 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,174 +11,90 @@ C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Repositorio/proyecto-ciencias-aplicadas/pinball
+C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57365
-Successfully changed project path to: D:/Repositorio/proyecto-ciencias-aplicadas/pinball
-D:/Repositorio/proyecto-ciencias-aplicadas/pinball
+57966
+Successfully changed project path to: C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
+C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Repositorio/proyecto-ciencias-aplicadas/pinball/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15dd)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     3532 MB
-    Driver:   27.20.21002.112
+    VRAM:     1977 MB
+    Driver:   27.21.14.5749
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003064 seconds.
+Registered in 0.001847 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.842 seconds
+- Completed reload, in  1.073 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001328 seconds.
+Registered in 0.000672 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025B0CD88040 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B4EA070 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B4EA070 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B441040 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0C182010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09ACDF70 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0C1986A0 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B59B480 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09732D50 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0C7F9030 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09752160 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0C7F9030 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09752160 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0CD88040 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0D108A30 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B8BA010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B8BA010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09ACDF70 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B68BC30 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.485 seconds
+- Completed reload, in  0.928 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1483 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.5 MB.
 System memory in use after: 84.5 MB.
 
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1936.
-Total: 3.783400 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.041200 ms MarkObjects: 3.245300 ms  DeleteObjects: 0.264900 ms)
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1937.
+Total: 2.321500 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.893300 ms  DeleteObjects: 0.151500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(102548b31d3ae8f4d82ea8d96e222d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(102548b31d3ae8f4d82ea8d96e222d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27316073d8756c03d86a9b0d791c113') in 0.266294 seconds
-  Import took 0.297549 seconds .
+  path: Assets/Scripts/bumper.cs
+  artifactKey: Guid(ec74872bc7416a44ab8e87886d820dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/bumper.cs using Guid(ec74872bc7416a44ab8e87886d820dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd130b5993c0625a56038723574718787') in 0.042435 seconds
+  Import took 0.044841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Materials/New Material 1.mat
-  artifactKey: Guid(69a837cb68cd6da468be32996292e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 1.mat using Guid(69a837cb68cd6da468be32996292e3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b4958767c820605f9abf0fe2347b31') in 0.064889 seconds
-  Import took 0.098342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Materials/New Material 2.mat
-  artifactKey: Guid(9d690e9db7fa3b245992e6f3725a3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 2.mat using Guid(9d690e9db7fa3b245992e6f3725a3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314526a7dc0173156554cf1d0c6a6916') in 0.047023 seconds
-  Import took 0.084790 seconds .
+  Time since last request: 30.222882 seconds.
+  path: Assets/Scripts/bumper.cs
+  artifactKey: Guid(ec74872bc7416a44ab8e87886d820dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/bumper.cs using Guid(ec74872bc7416a44ab8e87886d820dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc83c4be79a11ed7f1f8676d1e2256e9') in 0.006271 seconds
+  Import took 0.017798 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001394 seconds.
+Registered in 0.001017 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025B097B9020 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09783810 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09783810 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0998F080 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09716010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B3E7160 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B08120C10 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0BDBC060 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0D288010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B09990E40 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0D288010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0BECD010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0D288010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B1E9330 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0B6D6010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0CED7010 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0E3C1C10 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0CF332B0 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B0CF9F020 doesn't match image D:\Repositorio\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -193,31 +109,55 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
+- Completed reload, in  0.855 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1449 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.1 MB.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1979.
-Total: 3.576100 ms (FindLiveObjects: 0.232000 ms CreateObjectMapping: 0.046000 ms MarkObjects: 3.150400 ms  DeleteObjects: 0.146100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 473.372616 seconds.
-  path: Assets/Objects/Objetos vergas que pueden servir
-  artifactKey: Guid(667d2656fa732b64f95d740930cf30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Objetos vergas que pueden servir using Guid(667d2656fa732b64f95d740930cf30af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be140a7d22faa335c6e1fbac963bfaee') in 0.014257 seconds
-  Import took 0.115965 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 2.021700 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.714500 ms  DeleteObjects: 0.080100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.507258 seconds.
-  path: Assets/Objects/Objetos vergas que pueden servir/slingshot.prefab
-  artifactKey: Guid(e0d91cd9690dbf84a99a949ec45f5119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Objetos vergas que pueden servir/slingshot.prefab using Guid(e0d91cd9690dbf84a99a949ec45f5119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7c1d70317659dababc82eeb3b0fdef') in 0.091056 seconds
-  Import took 0.106052 seconds .
+  Time since last request: 50.480799 seconds.
+  path: Assets/Scripts/bumper.cs
+  artifactKey: Guid(ec74872bc7416a44ab8e87886d820dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/bumper.cs using Guid(ec74872bc7416a44ab8e87886d820dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132963e8158b8b1b024f7e6cfc67ae84') in 0.006909 seconds
+  Import took 0.009173 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1450 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.276000 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.814600 ms  DeleteObjects: 0.084500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
