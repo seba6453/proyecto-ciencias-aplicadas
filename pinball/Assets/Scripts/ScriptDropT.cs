@@ -4,60 +4,47 @@ using UnityEngine;
 
 public class ScriptDropT : MonoBehaviour
 {
-    Collider col1;
-    Rigidbody rb1;
-    Collider col2;
-    Rigidbody rb2;
-    Collider col3;
-    Rigidbody rb3; 
+    Collider col1,col2,col3;
+    Rigidbody rb1,rb2,rb3;
     public static int cantDT = 0;
-    public GameObject DT1;
-    public GameObject DT2;
-    public GameObject DT3; 
-    public Vector3 pos1;
-    public Vector3 pos2;
-    public Vector3 pos3;
+    public GameObject DT1,DT2,DT3;
     
-    void Start(){
-        col1 = DT1.GetComponent<Collider>();
-        rb1 = DT1.GetComponent<Rigidbody>();
-        buscarPos(pos1,DT1); 
+    void Start(){                                   //Se obtienen los Collider y Rigidbody de cada DT
+        col1 = DT1.GetComponent<Collider>();        //Ademas se guarda su posicion inicial
+        rb1 = DT1.GetComponent<Rigidbody>();        //Se definen los 3 DT y aumenta la cantidad
+        GuardarPos(DT1.transform.position); 
         col2 = DT2.GetComponent<Collider>();
         rb2 = DT2.GetComponent<Rigidbody>();
-        buscarPos(pos2,DT2);
+        GuardarPos(DT2.transform.position);
         col3 = DT3.GetComponent<Collider>(); 
         rb3 = DT3.GetComponent<Rigidbody>();
-        buscarPos(pos3,DT3);
+        GuardarPos(DT3.transform.position);
         cantDT = 3;
     }
 
-    void buscarPos(Vector3 vector,GameObject gameObject){
-        vector = gameObject.transform.position;
-        GuardarPos(vector);
-    }
     void Update()
     {
         if(cantDT == 0){ 
-            subir(col1,rb1,DT1);
+            subir(col1,rb1,DT1);                //Reinicia a los 3 DT
             subir(col2,rb2,DT2);
             subir(col3,rb3,DT3); 
         }
     }
 
     void subir(Collider col,Rigidbody rb,GameObject gameObject){
-        rb.AddForce(Vector3.up * 100f, ForceMode.Impulse);  //Hace que suban con mayor impulso
-        cantDT += 1;
+        rb.AddForce(Vector3.up * 70f, ForceMode.Impulse);  //Hace que suban con mayor impulso
+        cantDT += 1;                                        //quiere decir que el DT esta levantado
         Debug.Log(cantDT);
-        StartCoroutine(esperar(col,gameObject));
+        StartCoroutine(esperar(col,gameObject));         
     }
 
     IEnumerator esperar(Collider col,GameObject gameObject){
-        yield return new WaitForSeconds(0.5f);
-        col.enabled = true;
-        gameObject.transform.position = CargarPos();
+        yield return new WaitForSeconds(1f);                  //espera por 0.5 segundos
+        col.enabled = true;                                     //se activa el collider del DT
+        gameObject.transform.position = CargarPos();            //se carga la posicion inicial
     }
 
-    public static void GuardarPos(Vector3 Posicion){
+    public static void GuardarPos(Vector3 Posicion){        //Guarda la posicion de cada componente
         PlayerPrefs.SetFloat("x",Posicion.x);
         PlayerPrefs.SetFloat("y",Posicion.y);
         PlayerPrefs.SetFloat("z",Posicion.z);
@@ -70,5 +57,4 @@ public class ScriptDropT : MonoBehaviour
         posicion.z = PlayerPrefs.GetFloat("z");
         return posicion;
     }
-
 }
