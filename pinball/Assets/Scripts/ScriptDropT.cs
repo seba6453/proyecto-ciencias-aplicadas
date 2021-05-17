@@ -19,26 +19,16 @@ public class ScriptDropT : MonoBehaviour
     public Vector3 pos3;
     
     void Start(){
-        col1 = GetCollider(DT1); 
-        rb1 = GetRigidbody(DT1);
+        col1 = DT1.GetComponent<Collider>();
+        rb1 = DT1.GetComponent<Rigidbody>();
         buscarPos(pos1,DT1); 
-        col2 = GetCollider(DT2); 
-        rb2 = GetRigidbody(DT2);
+        col2 = DT2.GetComponent<Collider>();
+        rb2 = DT2.GetComponent<Rigidbody>();
         buscarPos(pos2,DT2);
-        col3 = GetCollider(DT3); 
-        rb3 = GetRigidbody(DT3);
+        col3 = DT3.GetComponent<Collider>(); 
+        rb3 = DT3.GetComponent<Rigidbody>();
         buscarPos(pos3,DT3);
-    }
-
-    public Collider GetCollider(GameObject gameObject){
-        Collider col = gameObject.GetComponent<Collider>(); //Se obtiene el Collider de 1 DropTarget
-        return col;
-    }
-
-    public Rigidbody GetRigidbody(GameObject gameObject){
-        Rigidbody rb = gameObject.GetComponent<Rigidbody>(); //Se obtiene el Rigidbody de 1 DropTarget
-        cantDT += 1;
-        return rb;
+        cantDT = 3;
     }
 
     void buscarPos(Vector3 vector,GameObject gameObject){
@@ -47,13 +37,13 @@ public class ScriptDropT : MonoBehaviour
     }
     void Update()
     {
-        if(cantDT == 0){
-            StartCoroutine(wait());
+        if(cantDT == 0){ 
             subir(col1,rb1,DT1);
             subir(col2,rb2,DT2);
-            subir(col3,rb3,DT3);   
+            subir(col3,rb3,DT3); 
         }
     }
+
     void subir(Collider col,Rigidbody rb,GameObject gameObject){
         rb.AddForce(Vector3.up * 100f, ForceMode.Impulse);  //Hace que suban con mayor impulso
         cantDT += 1;
@@ -62,14 +52,9 @@ public class ScriptDropT : MonoBehaviour
     }
 
     IEnumerator esperar(Collider col,GameObject gameObject){
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         col.enabled = true;
         gameObject.transform.position = CargarPos();
-    }
-
-    IEnumerator wait(){
-        yield return new WaitForSeconds(1f);
-        Debug.Log("entro");
     }
 
     public static void GuardarPos(Vector3 Posicion){
