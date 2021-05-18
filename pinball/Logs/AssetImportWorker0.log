@@ -15,11 +15,11 @@ C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61254
+59557
 Successfully changed project path to: C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,98 +35,1708 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007741 seconds.
+Registered in 0.009084 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 100.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.679 seconds
+- Completed reload, in  3.837 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004513 seconds.
+Registered in 0.003174 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.752 seconds
+- Completed reload, in  2.852 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.9 MB.
-System memory in use after: 61.6 MB.
+System memory in use after: 61.7 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 10.106200 ms (FindLiveObjects: 0.461100 ms CreateObjectMapping: 0.064100 ms MarkObjects: 9.144800 ms  DeleteObjects: 0.432700 ms)
+Total: 10.020800 ms (FindLiveObjects: 0.551000 ms CreateObjectMapping: 0.069800 ms MarkObjects: 8.845800 ms  DeleteObjects: 0.550400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/ScriptDropT.cs
-  artifactKey: Guid(263c0d53862543847b29ffeb41a59a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptDropT.cs using Guid(263c0d53862543847b29ffeb41a59a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a144176d5072e277e104bbe7be88e01f') in 0.079827 seconds
-  Import took 0.085833 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001903 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.304 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1948.
-Total: 7.539900 ms (FindLiveObjects: 0.754500 ms CreateObjectMapping: 0.310100 ms MarkObjects: 6.201000 ms  DeleteObjects: 0.269200 ms)
+  path: Assets/ProBuilder Data
+  artifactKey: Guid(b05d2397a16722f41b540ce0987fd9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data using Guid(b05d2397a16722f41b540ce0987fd9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2639d9ef1516a44814aaa1b6777f76e8') in 0.037724 seconds
+  Import took 0.043980 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 312.929771 seconds.
-  path: Assets/Scripts/ScriptDropT.cs
-  artifactKey: Guid(263c0d53862543847b29ffeb41a59a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ScriptDropT.cs using Guid(263c0d53862543847b29ffeb41a59a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ed56cfbc0b22def82aa8a9116328bd') in 0.019041 seconds
-  Import took 0.025834 seconds .
+  Time since last request: 365.599065 seconds.
+  path: Assets/Objects/Table
+  artifactKey: Guid(ba0de967c3a4b0747a531ba2a45bea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Table using Guid(ba0de967c3a4b0747a531ba2a45bea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461c58b1b5417da82cc004278d6b375') in 0.033648 seconds
+  Import took 0.040626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.398424 seconds.
+  path: Assets/MenuBoard/DemoScene
+  artifactKey: Guid(3b2dcdb5e26e24a4fad7a89da12f9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/DemoScene using Guid(3b2dcdb5e26e24a4fad7a89da12f9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdebff6d38b772b767ce63ba7c5cf831') in 0.037053 seconds
+  Import took 0.042701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.784622 seconds.
+  path: Assets/MenuBoard/DemoScene/demo.unity
+  artifactKey: Guid(7411a3e6552f815438c6dbd4c0738dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/DemoScene/demo.unity using Guid(7411a3e6552f815438c6dbd4c0738dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658df6604c8a6d0923265cc34ee98fdc') in 0.035112 seconds
+  Import took 0.040762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.327080 seconds.
+  path: Assets/MenuBoard/Font/Bad Gong.ttf
+  artifactKey: Guid(66175ce4539650347978966f9f548d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Font/Bad Gong.ttf using Guid(66175ce4539650347978966f9f548d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0835689e51083ba268f0f21ddfef43') in 0.294737 seconds
+  Import took 0.300678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.264193 seconds.
+  path: Assets/MenuBoard/Prefabs/menuboard.prefab
+  artifactKey: Guid(affd85d75c3c8e54b802be2df6f1770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Prefabs/menuboard.prefab using Guid(affd85d75c3c8e54b802be2df6f1770f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aed99ac65478c15b6f43817f510f6dd') in 0.123201 seconds
+  Import took 0.129278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/MenuBoard/Prefabs/MenuBoard_simple.prefab
+  artifactKey: Guid(8c9f0c23c52027445b918539b1026af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Prefabs/MenuBoard_simple.prefab using Guid(8c9f0c23c52027445b918539b1026af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff386c9e3cec7637f25cc143170e419') in 0.054615 seconds
+  Import took 0.060627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/MenuBoard/Prefabs/MenuBoard_double.prefab
+  artifactKey: Guid(29f49c4f87606ce47924a910b8793034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Prefabs/MenuBoard_double.prefab using Guid(29f49c4f87606ce47924a910b8793034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db19daac19c306718fc4faf66e5a565') in 0.065676 seconds
+  Import took 0.072266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007223 seconds.
+  path: Assets/MenuBoard/Prefabs/MenuBoard_double.prefab
+  artifactKey: Guid(29f49c4f87606ce47924a910b8793034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Prefabs/MenuBoard_double.prefab using Guid(29f49c4f87606ce47924a910b8793034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db19daac19c306718fc4faf66e5a565') in 0.043895 seconds
+  Import took 0.050072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.665612 seconds.
+  path: Assets/MenuBoard/Resources/Textures
+  artifactKey: Guid(832d2a9b9b049d74e89534dd0e55688c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Textures using Guid(832d2a9b9b049d74e89534dd0e55688c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d4ca0f3d6e27421f395871b76f53a8') in 0.021614 seconds
+  Import took 0.031731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011522 seconds.
+  path: Assets/MenuBoard/Resources/Textures/board_A.jpg
+  artifactKey: Guid(33047475db996b44eaf6df1fc9bb22a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Textures/board_A.jpg using Guid(33047475db996b44eaf6df1fc9bb22a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6355b4e40e8543738c547efcc3597c3c') in 0.149185 seconds
+  Import took 0.156401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001020 seconds.
+  path: Assets/MenuBoard/Resources/Textures/board_C.jpg
+  artifactKey: Guid(4867b280a819db440bdda2e7e7f9f5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Textures/board_C.jpg using Guid(4867b280a819db440bdda2e7e7f9f5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fded243b959eb31a1c64f84872f49da') in 0.048746 seconds
+  Import took 0.056315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/MenuBoard/Resources/Textures/wood.jpg
+  artifactKey: Guid(cd9867a98e990c64d917f4b15a457f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Textures/wood.jpg using Guid(cd9867a98e990c64d917f4b15a457f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ff5294991cf6ac5e0ad10c68e69796') in 0.047790 seconds
+  Import took 0.053602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/MenuBoard/Resources/Textures/board_B.jpg
+  artifactKey: Guid(a7f1ba974ba9e91469b0678d04c76c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Textures/board_B.jpg using Guid(a7f1ba974ba9e91469b0678d04c76c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a21e91e9f4b125ed06b33c94e119b3') in 0.048087 seconds
+  Import took 0.054027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.332710 seconds.
+  path: Assets/MenuBoard/Resources/Models/menuboard.fbx
+  artifactKey: Guid(485480aca40f680428aca00a64170366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Models/menuboard.fbx using Guid(485480aca40f680428aca00a64170366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4857bae504cc855d905abc2341761171') in 0.168016 seconds
+  Import took 0.173916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.919483 seconds.
+  path: Assets/MenuBoard/Resources/Materials/board_A.mat
+  artifactKey: Guid(2a3cb2b6334be204daedfdffa17ebfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Materials/board_A.mat using Guid(2a3cb2b6334be204daedfdffa17ebfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64234dc5ea02c9324aa2f498f09e7c7b') in 0.045776 seconds
+  Import took 0.051472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/MenuBoard/Resources/Materials/board_C.mat
+  artifactKey: Guid(9e5fe6e598ea6d44db5bec6ab3b3ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Materials/board_C.mat using Guid(9e5fe6e598ea6d44db5bec6ab3b3ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a654747a4bad9d77d50ad9c238e10aa') in 0.033129 seconds
+  Import took 0.039061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/MenuBoard/Resources/Materials/board_B.mat
+  artifactKey: Guid(2f3a07d5154510d4c89e667f69a25656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Materials/board_B.mat using Guid(2f3a07d5154510d4c89e667f69a25656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e980a4f716834ffa725bfb7a6ab55485') in 0.040827 seconds
+  Import took 0.046865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000785 seconds.
+  path: Assets/MenuBoard/Resources/Materials/wood.mat
+  artifactKey: Guid(d87aeed3f07b1554cb9cf469b26633e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Materials/wood.mat using Guid(d87aeed3f07b1554cb9cf469b26633e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b41d88cfb57107000ea573844311f5') in 0.038135 seconds
+  Import took 0.044761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.042549 seconds.
+  path: Assets/MenuBoard/DemoScene/demoSettings.lighting
+  artifactKey: Guid(cc4c5cde82fcc0e488961ae06a3c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/DemoScene/demoSettings.lighting using Guid(cc4c5cde82fcc0e488961ae06a3c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4aeb5d9f135733f3ac144d90e0678d45') in 0.030708 seconds
+  Import took 0.037258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001202 seconds.
+  path: Assets/MenuBoard/DemoScene/demoSettings.lighting
+  artifactKey: Guid(cc4c5cde82fcc0e488961ae06a3c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/DemoScene/demoSettings.lighting using Guid(cc4c5cde82fcc0e488961ae06a3c1c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4aeb5d9f135733f3ac144d90e0678d45') in 0.013605 seconds
+  Import took 0.019937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 465.870703 seconds.
+  path: Assets/MenuBoard/Resources
+  artifactKey: Guid(d18d8bb6c141e5c4bab5e1e5f2cf75a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources using Guid(d18d8bb6c141e5c4bab5e1e5f2cf75a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb0e9b4c19e58d2d5f75351d968f81b') in 0.029070 seconds
+  Import took 0.034895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014139 seconds.
+  path: Assets/MenuBoard/Resources
+  artifactKey: Guid(d18d8bb6c141e5c4bab5e1e5f2cf75a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources using Guid(d18d8bb6c141e5c4bab5e1e5f2cf75a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb0e9b4c19e58d2d5f75351d968f81b') in 0.011849 seconds
+  Import took 0.017764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.741043 seconds.
+  path: Assets/MenuBoard/Resources/Materials
+  artifactKey: Guid(0c200060bac0e3241921c643d0d508c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Materials using Guid(0c200060bac0e3241921c643d0d508c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb62f3d41d2a6b5ccff3ab30005aae76') in 0.022003 seconds
+  Import took 0.029244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035776 seconds.
+  path: Assets/MenuBoard/Resources/Materials/wood.mat
+  artifactKey: Guid(d87aeed3f07b1554cb9cf469b26633e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuBoard/Resources/Materials/wood.mat using Guid(d87aeed3f07b1554cb9cf469b26633e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4045b004156de9119c0de3386e55b02') in 0.039497 seconds
+  Import took 0.046454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2449.432793 seconds.
+  path: Packages/com.unity.ide.rider/package.json
+  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc695bfcf38eb498902ab2cd6e7c2d2') in 0.056777 seconds
+  Import took 0.065045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.526235 seconds.
+  path: Packages/com.unity.probuilder/package.json
+  artifactKey: Guid(7958ca6fdf895ca498c5fab155f0b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/package.json using Guid(7958ca6fdf895ca498c5fab155f0b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c480b23367f95c45e023bab70001dfb') in 0.032936 seconds
+  Import took 0.040324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.355184 seconds.
+  path: Packages/com.unity.ext.nunit/package.json
+  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2c54a45364b731cf13813a76f19903') in 0.033304 seconds
+  Import took 0.040440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.179076 seconds.
+  path: Packages/com.unity.settings-manager/package.json
+  artifactKey: Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.settings-manager/package.json using Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bad834b3401d0d6f122407211cd313c') in 0.032896 seconds
+  Import took 0.039833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 395.136100 seconds.
+  path: Assets/menu mobile games/blue
+  artifactKey: Guid(a26bd4d3e84b5394f93a6b1fa906ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue using Guid(a26bd4d3e84b5394f93a6b1fa906ce5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e252d2fa72b988dc342824ff2f589a') in 0.027902 seconds
+  Import took 0.034496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.120892 seconds.
+  path: Assets/menu mobile games/blue/button
+  artifactKey: Guid(53f1dfcd2d17e2948a48b2eade8d346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button using Guid(53f1dfcd2d17e2948a48b2eade8d346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9727a4f0436157746e748b539e6a13') in 0.022993 seconds
+  Import took 0.028780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069126 seconds.
+  path: Assets/menu mobile games/blue/button/back.png
+  artifactKey: Guid(51cb69151d7673a43b52a7b30ee45586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/back.png using Guid(51cb69151d7673a43b52a7b30ee45586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1215e0a91ad4a63bccb805bbcdfb32') in 0.112585 seconds
+  Import took 0.119469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000765 seconds.
+  path: Assets/menu mobile games/blue/button/question.png
+  artifactKey: Guid(1d0df5272030afe4daf8b4c36f15d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/question.png using Guid(1d0df5272030afe4daf8b4c36f15d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e50fd9d2598d2ad8a842dc0574618bc') in 0.050606 seconds
+  Import took 0.056123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000733 seconds.
+  path: Assets/menu mobile games/blue/button/store.png
+  artifactKey: Guid(d8009ef68cb239a42af38cef0e549151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/store.png using Guid(d8009ef68cb239a42af38cef0e549151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33df50da51bb611a3b6a236566c80974') in 0.048997 seconds
+  Import took 0.054372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/menu mobile games/blue/button/settings.png
+  artifactKey: Guid(74a15d172eafbe743a6bcfaa864972b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/settings.png using Guid(74a15d172eafbe743a6bcfaa864972b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ab655c68206996386174c92ead93dd') in 0.047609 seconds
+  Import took 0.053425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/menu mobile games/blue/button/sound.png
+  artifactKey: Guid(8386029d32144cf438f7aee552ee25b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/sound.png using Guid(8386029d32144cf438f7aee552ee25b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a91e4875e55674cc79f6fb652d0e9e') in 0.045086 seconds
+  Import took 0.051341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/menu mobile games/blue/button/menu.png
+  artifactKey: Guid(cd349c9fb08bde94ab85dd683f622f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/menu.png using Guid(cd349c9fb08bde94ab85dd683f622f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee8ee88c13bb1a823f1d43e9e82bfc') in 0.049076 seconds
+  Import took 0.055797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/menu mobile games/blue/button/empty.png
+  artifactKey: Guid(396efde5bbc17f84fb57e262496ba4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/empty.png using Guid(396efde5bbc17f84fb57e262496ba4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b063bb32cc922c6f379ab2ddd452ada') in 0.042994 seconds
+  Import took 0.049250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/menu mobile games/blue/button/lock.png
+  artifactKey: Guid(ff540f1175e669644bad8cf38be2235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/lock.png using Guid(ff540f1175e669644bad8cf38be2235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5c4eea8a6bdcf070a0d0b21e52a2c8') in 0.049048 seconds
+  Import took 0.054948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/menu mobile games/blue/button/players rating.png
+  artifactKey: Guid(8d8768ce2b873844f8a56bed0544e51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/players rating.png using Guid(8d8768ce2b873844f8a56bed0544e51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf762529253188745194383f1802869b') in 0.045139 seconds
+  Import took 0.050584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000712 seconds.
+  path: Assets/menu mobile games/blue/button/cancel.png
+  artifactKey: Guid(17d1d63d7e18fbd4f90c2953294b284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/cancel.png using Guid(17d1d63d7e18fbd4f90c2953294b284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd61362b6b5e5d3e574d0be889f7c9') in 0.049967 seconds
+  Import took 0.055778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/menu mobile games/blue/button/twitter.png
+  artifactKey: Guid(8039a880cfbc4354f916769574f1bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/twitter.png using Guid(8039a880cfbc4354f916769574f1bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280c9e41ba35e7f4e5bda9f0e56996fb') in 0.047296 seconds
+  Import took 0.053039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/menu mobile games/blue/button/info.png
+  artifactKey: Guid(422650af21847e04eb42c2194630746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/info.png using Guid(422650af21847e04eb42c2194630746a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c299bfad802ef053726d747c0ca17b') in 0.046946 seconds
+  Import took 0.053168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/menu mobile games/blue/button/home.png
+  artifactKey: Guid(a036d6e967c717f47a71d5f7d101ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/home.png using Guid(a036d6e967c717f47a71d5f7d101ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8fe57f43948858a645e1b420388c04') in 0.053356 seconds
+  Import took 0.059980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/menu mobile games/blue/button/ok.png
+  artifactKey: Guid(d301e5eb470606340a2ed149e9f11bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/ok.png using Guid(d301e5eb470606340a2ed149e9f11bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4f15ebffba4b8e2b4076bd5a4d7d05') in 0.041383 seconds
+  Import took 0.047249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/menu mobile games/blue/button/pause.png
+  artifactKey: Guid(c0a4a40497575ab4da15ba176345ab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/pause.png using Guid(c0a4a40497575ab4da15ba176345ab14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15db799371009e3556d845bc5cb3cf06') in 0.048833 seconds
+  Import took 0.054317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/menu mobile games/blue/button/repeat.png
+  artifactKey: Guid(7411dfaea7b8d8140809b77b4598f092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/repeat.png using Guid(7411dfaea7b8d8140809b77b4598f092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca83b366cb82413014b72a5a91ce355') in 0.047428 seconds
+  Import took 0.053353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/menu mobile games/blue/button/play.png
+  artifactKey: Guid(a378d6f28ffac694498e8a63dec3ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/play.png using Guid(a378d6f28ffac694498e8a63dec3ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fec67e318162ad7a82e5cdf6a751d7d') in 0.047126 seconds
+  Import took 0.054375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000694 seconds.
+  path: Assets/menu mobile games/blue/button/Invite.png
+  artifactKey: Guid(018a79f2d2ce0fd43ab9dea3195d241b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/Invite.png using Guid(018a79f2d2ce0fd43ab9dea3195d241b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74db8b2a5c287c6b87c9dad20b0e5a18') in 0.050326 seconds
+  Import took 0.056141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/menu mobile games/blue/button/cup.png
+  artifactKey: Guid(4c43fa2a6be94aa409ecef7ce752013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/cup.png using Guid(4c43fa2a6be94aa409ecef7ce752013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7486de6369e20b67986ea843baaa605f') in 0.043950 seconds
+  Import took 0.049393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/menu mobile games/blue/button/facebook.png
+  artifactKey: Guid(d222d1e7f6e01bc4190163fcdee45d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/facebook.png using Guid(d222d1e7f6e01bc4190163fcdee45d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a14f9783c72b99a4605138ef9c5d39') in 0.051533 seconds
+  Import took 0.057326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/menu mobile games/blue/button/cup.png
+  artifactKey: Guid(4c43fa2a6be94aa409ecef7ce752013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/cup.png using Guid(4c43fa2a6be94aa409ecef7ce752013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7486de6369e20b67986ea843baaa605f') in 0.035639 seconds
+  Import took 0.041184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/menu mobile games/blue/button/facebook.png
+  artifactKey: Guid(d222d1e7f6e01bc4190163fcdee45d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/facebook.png using Guid(d222d1e7f6e01bc4190163fcdee45d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a14f9783c72b99a4605138ef9c5d39') in 0.032952 seconds
+  Import took 0.038969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000687 seconds.
+  path: Assets/menu mobile games/blue/button/like.png
+  artifactKey: Guid(936157d0b7277ba499b53292be08fc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/button/like.png using Guid(936157d0b7277ba499b53292be08fc32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca32037cb5433279d4870a8904ba0e9') in 0.048307 seconds
+  Import took 0.054213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.140390 seconds.
+  path: Assets/menu mobile games/green
+  artifactKey: Guid(9a1dddde1416cc14fa292cf92e701148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green using Guid(9a1dddde1416cc14fa292cf92e701148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea4737dab287bda582d20e2d0b0c4a5') in 0.021653 seconds
+  Import took 0.028303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.286502 seconds.
+  path: Assets/menu mobile games/green/button
+  artifactKey: Guid(e6bd29dceb6973946b7927af5e857488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button using Guid(e6bd29dceb6973946b7927af5e857488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b5333f809147d3c9b1d54cad951488') in 0.014260 seconds
+  Import took 0.020435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056513 seconds.
+  path: Assets/menu mobile games/green/button/back.png
+  artifactKey: Guid(e9233056706b88442af4f2143364c2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/back.png using Guid(e9233056706b88442af4f2143364c2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde44dbeec636ecc768ca8cc3dc5bccf') in 0.049597 seconds
+  Import took 0.055491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/menu mobile games/green/button/cancel.png
+  artifactKey: Guid(7c536184c91432146974caf6fb00e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/cancel.png using Guid(7c536184c91432146974caf6fb00e951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8f1eba903e067b7b0e0baa71657533') in 0.042744 seconds
+  Import took 0.048360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/menu mobile games/green/button/play.png
+  artifactKey: Guid(eac1749cf9ad2e545a69da199c2be979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/play.png using Guid(eac1749cf9ad2e545a69da199c2be979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38f086dc566353a9aa1070ad5e83b4') in 0.041991 seconds
+  Import took 0.047997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/menu mobile games/green/button/sound.png
+  artifactKey: Guid(a7427a269fcdea244a461ec0d7106e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/sound.png using Guid(a7427a269fcdea244a461ec0d7106e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9001697483abd9bc6adb2d39b9a5b565') in 0.051481 seconds
+  Import took 0.056962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000668 seconds.
+  path: Assets/menu mobile games/green/button/repeat.png
+  artifactKey: Guid(a31210ee4c8566b45a371a7b2cdd32c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/repeat.png using Guid(a31210ee4c8566b45a371a7b2cdd32c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c8b153ce81f077a1c7568dceebf9d2') in 0.040137 seconds
+  Import took 0.045916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000944 seconds.
+  path: Assets/menu mobile games/green/button/info.png
+  artifactKey: Guid(a33fc93e1c2c24941a9d95f9326c6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/info.png using Guid(a33fc93e1c2c24941a9d95f9326c6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59260b72f54579b3f7aec940b3f8eba') in 0.034723 seconds
+  Import took 0.040166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/menu mobile games/green/button/like.png
+  artifactKey: Guid(da5871d94e95fc9478eb0ca8d73ab0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/like.png using Guid(da5871d94e95fc9478eb0ca8d73ab0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9777a122784668b2573a7176a5e87dbf') in 0.041180 seconds
+  Import took 0.047235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/menu mobile games/green/button/pause.png
+  artifactKey: Guid(02d97d7b6524e0d4cafc159b13892095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/pause.png using Guid(02d97d7b6524e0d4cafc159b13892095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc4ed5dbc386017f0cfdeb28a9ec0d4') in 0.039043 seconds
+  Import took 0.045800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/menu mobile games/green/button/question.png
+  artifactKey: Guid(e673246535695964f9d87bf829da20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/question.png using Guid(e673246535695964f9d87bf829da20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04295ac97de690616fd3832706749819') in 0.040629 seconds
+  Import took 0.046967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000724 seconds.
+  path: Assets/menu mobile games/green/button/players rating.png
+  artifactKey: Guid(74a9f2a94b118be4b8126dada65042bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/players rating.png using Guid(74a9f2a94b118be4b8126dada65042bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6995226bb617dde642836ea3fb8921') in 0.043099 seconds
+  Import took 0.049855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/menu mobile games/green/button/facebook.png
+  artifactKey: Guid(f7712bab5e982fa4ab2021db3f79d813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/facebook.png using Guid(f7712bab5e982fa4ab2021db3f79d813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de72de780953c34fe60d223fd381d5ef') in 0.041291 seconds
+  Import took 0.047767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/menu mobile games/green/button/Invite.png
+  artifactKey: Guid(5a3dfa2b6d251fe4a9a1e848f7cd6ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/Invite.png using Guid(5a3dfa2b6d251fe4a9a1e848f7cd6ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd808397db3a069265a534178380be984') in 0.042188 seconds
+  Import took 0.048910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/menu mobile games/green/button/home.png
+  artifactKey: Guid(6df215def8d7523419f6c48680909e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/home.png using Guid(6df215def8d7523419f6c48680909e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56548fdca898d6e680d504ad00ca22a5') in 0.050096 seconds
+  Import took 0.056768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000756 seconds.
+  path: Assets/menu mobile games/green/button/lock.png
+  artifactKey: Guid(3eb01b9053aed804faecb3997fafa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/lock.png using Guid(3eb01b9053aed804faecb3997fafa87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ebf3c6827fb8d961c05adc9d3e5b0e') in 0.044221 seconds
+  Import took 0.050000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/menu mobile games/green/button/twitter.png
+  artifactKey: Guid(75ed538c56697e843ab15e00f32d5d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/twitter.png using Guid(75ed538c56697e843ab15e00f32d5d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1133df2d3407cb02d53e42aeb6377f76') in 0.042189 seconds
+  Import took 0.047763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000863 seconds.
+  path: Assets/menu mobile games/green/button/store.png
+  artifactKey: Guid(a757ef976867adb459efe6593937e8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/store.png using Guid(a757ef976867adb459efe6593937e8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f51e3e12702fb02ce14d7cdda1e3da') in 0.041815 seconds
+  Import took 0.048483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/menu mobile games/green/button/settings.png
+  artifactKey: Guid(f282469bd963c334f8eb89482dfecb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/settings.png using Guid(f282469bd963c334f8eb89482dfecb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0451ba4e7eb7d835bb149720e5bc4eb') in 0.038260 seconds
+  Import took 0.044708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/menu mobile games/green/button/cup.png
+  artifactKey: Guid(2242f06dfacd00a42891e4d792aa5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/cup.png using Guid(2242f06dfacd00a42891e4d792aa5377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6dc880aa606426e579b4a8f225ccb2') in 0.033727 seconds
+  Import took 0.040778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/menu mobile games/green/button/ok.png
+  artifactKey: Guid(680bc6dcae320a9489c22856eca98e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/ok.png using Guid(680bc6dcae320a9489c22856eca98e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c376b5887e0b40cd92c4443053daac') in 0.039539 seconds
+  Import took 0.045439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/menu mobile games/green/button/empty.png
+  artifactKey: Guid(1981e580a1ffd7c458a6be6278644d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/empty.png using Guid(1981e580a1ffd7c458a6be6278644d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484beaf7710556a32524c727a71331d6') in 0.039474 seconds
+  Import took 0.047347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001125 seconds.
+  path: Assets/menu mobile games/green/button/menu.png
+  artifactKey: Guid(3ce59836f61a26a47991f7c88c92d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/button/menu.png using Guid(3ce59836f61a26a47991f7c88c92d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa91089c637e6b27d1f1b7498004f6') in 0.048201 seconds
+  Import took 0.055206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.320841 seconds.
+  path: Assets/menu mobile games/lilac
+  artifactKey: Guid(09616ce689309af4e8e25bc273efd79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac using Guid(09616ce689309af4e8e25bc273efd79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75995e99e2bb57ea9f47435864be8162') in 0.022681 seconds
+  Import took 0.028965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714805 seconds.
+  path: Assets/menu mobile games/overall
+  artifactKey: Guid(3e81776af27da044ab1ac7814eadc164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/overall using Guid(3e81776af27da044ab1ac7814eadc164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71143d7a75107e67b12a5e4eb277412b') in 0.024174 seconds
+  Import took 0.030779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062880 seconds.
+  path: Assets/menu mobile games/overall/star.png
+  artifactKey: Guid(bdf9a275823dda24e831cceac7038892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/overall/star.png using Guid(bdf9a275823dda24e831cceac7038892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1a99c21c637f80534689f88e44a76f') in 0.047389 seconds
+  Import took 0.053817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382483 seconds.
+  path: Assets/menu mobile games/red
+  artifactKey: Guid(65e8315e66ca44d4f927d2d0a5ae13a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red using Guid(65e8315e66ca44d4f927d2d0a5ae13a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e2b014fbbad197b05ee445d267142e') in 0.022826 seconds
+  Import took 0.029567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.385445 seconds.
+  path: Assets/menu mobile games/red/frame
+  artifactKey: Guid(40cdf22b6f8343c4bb4e70e75a9f0a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/frame using Guid(40cdf22b6f8343c4bb4e70e75a9f0a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccf45cb0459ebef4036120f0aace469') in 0.023731 seconds
+  Import took 0.030808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092382 seconds.
+  path: Assets/menu mobile games/red/frame/round frame.png
+  artifactKey: Guid(ef9da4ec059a2ed4caf5f354876f7dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/frame/round frame.png using Guid(ef9da4ec059a2ed4caf5f354876f7dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38c5cdfa46eaf3e750ee444cb7993cf') in 0.052491 seconds
+  Import took 0.061065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/menu mobile games/red/frame/square frame.png
+  artifactKey: Guid(3aa9fefafae4fa944a3a239d75b905ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/frame/square frame.png using Guid(3aa9fefafae4fa944a3a239d75b905ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a15feb182f67737581d5434d8d84aa') in 0.044758 seconds
+  Import took 0.051097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.617680 seconds.
+  path: Assets/menu mobile games/red/figures
+  artifactKey: Guid(603609c48f0b4044fb94db522aac5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures using Guid(603609c48f0b4044fb94db522aac5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e52a310a1f704ba5582000c6e2800') in 0.026575 seconds
+  Import took 0.032923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052002 seconds.
+  path: Assets/menu mobile games/red/figures/0.png
+  artifactKey: Guid(919984bf0f4dc0a42ba732a17b2058b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/0.png using Guid(919984bf0f4dc0a42ba732a17b2058b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ccc4bd23782a7ad180f848a169069a') in 0.046538 seconds
+  Import took 0.053032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/menu mobile games/red/figures/7.png
+  artifactKey: Guid(26416a3b547e28f4fb8c1d50c3fb364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/7.png using Guid(26416a3b547e28f4fb8c1d50c3fb364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bd027990b7b58c49ea9c9a186fa509') in 0.048224 seconds
+  Import took 0.054280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/menu mobile games/red/figures/2.png
+  artifactKey: Guid(a0130f7a562c7c14eb12c91666a9560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/2.png using Guid(a0130f7a562c7c14eb12c91666a9560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82093f06dd0a77bd4d395b955f3aae56') in 0.045658 seconds
+  Import took 0.051492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/menu mobile games/red/figures/9.png
+  artifactKey: Guid(63f96bf182440de44858c699d86984b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/9.png using Guid(63f96bf182440de44858c699d86984b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdf9302faa777d734ef2b9dac35c45f') in 0.049935 seconds
+  Import took 0.056485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/menu mobile games/red/figures/6.png
+  artifactKey: Guid(54f0f0e6ccea5154193d677898203c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/6.png using Guid(54f0f0e6ccea5154193d677898203c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f45491fdfb8915b79f84ffb91798fe') in 0.045093 seconds
+  Import took 0.052237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000809 seconds.
+  path: Assets/menu mobile games/red/figures/3.png
+  artifactKey: Guid(921b1f22f9c7af14a92ff0776a33f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/3.png using Guid(921b1f22f9c7af14a92ff0776a33f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53efce38b67f4c5b1f7f4543a476a7c4') in 0.043315 seconds
+  Import took 0.050165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/menu mobile games/red/figures/4.png
+  artifactKey: Guid(020c2e0cf523d5347a8406c1f33dc269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/4.png using Guid(020c2e0cf523d5347a8406c1f33dc269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3405b3863d5f8275fba9c2efc3ce8d') in 0.045995 seconds
+  Import took 0.052277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000924 seconds.
+  path: Assets/menu mobile games/red/figures/5.png
+  artifactKey: Guid(b35cab3c07ea4f24281f03040c43ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/5.png using Guid(b35cab3c07ea4f24281f03040c43ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d6761a23ee8c46bc2218a76e6716cf') in 0.046948 seconds
+  Import took 0.052427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/menu mobile games/red/figures/8.png
+  artifactKey: Guid(6b2d0cc4e3434f0469588aa44728b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/8.png using Guid(6b2d0cc4e3434f0469588aa44728b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4500403110784e6ccee2c69699d32b') in 0.048082 seconds
+  Import took 0.053832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/menu mobile games/red/figures/1.png
+  artifactKey: Guid(ee8fdff2eb262da47a9b11be1123baf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/1.png using Guid(ee8fdff2eb262da47a9b11be1123baf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e206331c6d6463e455323fd6a858b1') in 0.041854 seconds
+  Import took 0.047323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002775 seconds.
+  path: Assets/menu mobile games/red/figures/1.png
+  artifactKey: Guid(ee8fdff2eb262da47a9b11be1123baf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/figures/1.png using Guid(ee8fdff2eb262da47a9b11be1123baf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e206331c6d6463e455323fd6a858b1') in 0.030596 seconds
+  Import took 0.037279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.107483 seconds.
+  path: Assets/menu mobile games/red/button
+  artifactKey: Guid(c2aea0ebfb4c8e744a628db4fd9a9b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button using Guid(c2aea0ebfb4c8e744a628db4fd9a9b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcc26eefad8d065ef884270c7193169') in 0.010684 seconds
+  Import took 0.017803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002029 seconds.
+  path: Assets/menu mobile games/red/button
+  artifactKey: Guid(c2aea0ebfb4c8e744a628db4fd9a9b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button using Guid(c2aea0ebfb4c8e744a628db4fd9a9b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcc26eefad8d065ef884270c7193169') in 0.012984 seconds
+  Import took 0.019339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055353 seconds.
+  path: Assets/menu mobile games/red/button/back.png
+  artifactKey: Guid(a55c2770096c46c47949a5932cf0f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/back.png using Guid(a55c2770096c46c47949a5932cf0f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f01fd4fe6161060199a286878d7c20') in 0.041932 seconds
+  Import took 0.048230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/menu mobile games/red/button/facebook.png
+  artifactKey: Guid(ec4fe2c0495ef4a428f4bea428c5b8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/facebook.png using Guid(ec4fe2c0495ef4a428f4bea428c5b8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2168a81201d05df0e0a7dd3fa53216e8') in 0.037657 seconds
+  Import took 0.044302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/menu mobile games/red/button/repeat.png
+  artifactKey: Guid(929f478f731ba8844a6e8447e85cd6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/repeat.png using Guid(929f478f731ba8844a6e8447e85cd6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854acef7e1020a1e5bbe73b6c9badb39') in 0.043340 seconds
+  Import took 0.050588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/menu mobile games/red/button/home.png
+  artifactKey: Guid(3a318d7e3536d9c4c87ecaaf4d423b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/home.png using Guid(3a318d7e3536d9c4c87ecaaf4d423b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db4a103cabe7546d00354fcfd04f13c') in 0.039577 seconds
+  Import took 0.045430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/menu mobile games/red/button/cup.png
+  artifactKey: Guid(caf9f8e9662e8b6498e7e32c52098493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/cup.png using Guid(caf9f8e9662e8b6498e7e32c52098493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0217727c1fc0b694efd61c54ea75631') in 0.039635 seconds
+  Import took 0.045666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/menu mobile games/red/button/settings.png
+  artifactKey: Guid(eb95b7957607102438142373d0fb594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/settings.png using Guid(eb95b7957607102438142373d0fb594a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da3b42f75c02868a6974b1a5278dcfc') in 0.036719 seconds
+  Import took 0.043215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000843 seconds.
+  path: Assets/menu mobile games/red/button/store.png
+  artifactKey: Guid(087a6268fe1bb7540b195e1c4574f4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/store.png using Guid(087a6268fe1bb7540b195e1c4574f4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e19e39e20fdfaa9a7f93932e775025') in 0.043092 seconds
+  Import took 0.049690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/menu mobile games/red/button/ok.png
+  artifactKey: Guid(fb291e6b8febd6546b447e8c3ad29645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/ok.png using Guid(fb291e6b8febd6546b447e8c3ad29645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f57cdf4450d0e0bc8353a40d34f37f') in 0.042201 seconds
+  Import took 0.049090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000978 seconds.
+  path: Assets/menu mobile games/red/button/Invite.png
+  artifactKey: Guid(615d9271b967666479ad129c662149bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/Invite.png using Guid(615d9271b967666479ad129c662149bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f449d5e783122072fb8c346ce4bf0b') in 0.043367 seconds
+  Import took 0.049897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000716 seconds.
+  path: Assets/menu mobile games/red/button/info.png
+  artifactKey: Guid(3fc88760625171c4d955a5fd2ed470c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/info.png using Guid(3fc88760625171c4d955a5fd2ed470c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e0ce38e7032879bb27a395611e4c3a') in 0.034733 seconds
+  Import took 0.040670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/menu mobile games/red/button/sound.png
+  artifactKey: Guid(5f8c81ede1b60c346bfe5bd683f9dbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/sound.png using Guid(5f8c81ede1b60c346bfe5bd683f9dbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbf172e4d2fd35790add572c91c8c2b') in 0.033925 seconds
+  Import took 0.039564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000832 seconds.
+  path: Assets/menu mobile games/red/button/like.png
+  artifactKey: Guid(ea3016435eeed8d4688c951d1ba59cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/like.png using Guid(ea3016435eeed8d4688c951d1ba59cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0fc05c7f0e8db067b42aa136f50dc5') in 0.041380 seconds
+  Import took 0.047383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/menu mobile games/red/button/menu.png
+  artifactKey: Guid(c13116924772d0249b3a9c2b0f822d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/menu.png using Guid(c13116924772d0249b3a9c2b0f822d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a61964469b6d6e94fdd050db29eab0b') in 0.043143 seconds
+  Import took 0.048856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000843 seconds.
+  path: Assets/menu mobile games/red/button/empty.png
+  artifactKey: Guid(7ae04fed2744c8d4fa8591ce3fdd1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/empty.png using Guid(7ae04fed2744c8d4fa8591ce3fdd1202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae794405b45230d828805621e8958bbf') in 0.036604 seconds
+  Import took 0.043065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/menu mobile games/red/button/players rating.png
+  artifactKey: Guid(5f3f73548b72cb04f8b92870d0a2e306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/players rating.png using Guid(5f3f73548b72cb04f8b92870d0a2e306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6122387a5ed182267e45e88016501f') in 0.042706 seconds
+  Import took 0.048832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/menu mobile games/red/button/twitter.png
+  artifactKey: Guid(75bb3c53e9cb02143803d2198b5ac535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/twitter.png using Guid(75bb3c53e9cb02143803d2198b5ac535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92494ae3adeb5b3d2e138485e5bdfd7d') in 0.040705 seconds
+  Import took 0.047075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/menu mobile games/red/button/lock.png
+  artifactKey: Guid(891066ce55ece114984979f6104c5c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/lock.png using Guid(891066ce55ece114984979f6104c5c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29034abae9ca888765c24fa926cf983f') in 0.038520 seconds
+  Import took 0.044855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/menu mobile games/red/button/cancel.png
+  artifactKey: Guid(32fc537cb8e38574e9b427ada5f98764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/cancel.png using Guid(32fc537cb8e38574e9b427ada5f98764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85282d697917a06ef34e6ca8eb59862e') in 0.042645 seconds
+  Import took 0.049580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/menu mobile games/red/button/play.png
+  artifactKey: Guid(315e2505d425c5741b31edba9fa121fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/play.png using Guid(315e2505d425c5741b31edba9fa121fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f68f6f5fbca051e3bc89f2962aa24bd') in 0.038433 seconds
+  Import took 0.044464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000783 seconds.
+  path: Assets/menu mobile games/red/button/question.png
+  artifactKey: Guid(c60e2b0d804a97e4ead53b10209a0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/question.png using Guid(c60e2b0d804a97e4ead53b10209a0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384ac0ade83c3e9bec6b04649d36b87d') in 0.039526 seconds
+  Import took 0.046004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/menu mobile games/red/button/pause.png
+  artifactKey: Guid(7950a7662bca1474eb34473443e3c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/pause.png using Guid(7950a7662bca1474eb34473443e3c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a35e7b7d6a5bdf7ad868ba623572a2a') in 0.042966 seconds
+  Import took 0.050211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009800 seconds.
+  path: Assets/menu mobile games/red/button/pause.png
+  artifactKey: Guid(7950a7662bca1474eb34473443e3c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/red/button/pause.png using Guid(7950a7662bca1474eb34473443e3c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a35e7b7d6a5bdf7ad868ba623572a2a') in 0.044203 seconds
+  Import took 0.051163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.621823 seconds.
+  path: Assets/menu mobile games/lilac/figures
+  artifactKey: Guid(ef66508f1f7b1bb479bffdb5504909b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures using Guid(ef66508f1f7b1bb479bffdb5504909b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b9e701159f8a217c1f6601247d7e50') in 0.013785 seconds
+  Import took 0.020081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071436 seconds.
+  path: Assets/menu mobile games/lilac/figures/0.png
+  artifactKey: Guid(9a05767473de41644847a00de129d2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/0.png using Guid(9a05767473de41644847a00de129d2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c74e5ec5b5cafdec9dec02b3541ed') in 0.040856 seconds
+  Import took 0.047136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/menu mobile games/lilac/figures/8.png
+  artifactKey: Guid(880040ff6ebd161469a79f7a842f26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/8.png using Guid(880040ff6ebd161469a79f7a842f26a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20d1a3c716ddc14e7a7549b385eadc') in 0.044215 seconds
+  Import took 0.050022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000623 seconds.
+  path: Assets/menu mobile games/lilac/figures/9.png
+  artifactKey: Guid(58fa9390986faec498efab23686433e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/9.png using Guid(58fa9390986faec498efab23686433e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390016964dafe53aeb81b1905ca84c1f') in 0.035249 seconds
+  Import took 0.040950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/menu mobile games/lilac/figures/6.png
+  artifactKey: Guid(38964c02f9c3cad48a1d401ed097327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/6.png using Guid(38964c02f9c3cad48a1d401ed097327b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5c38e4fcf4e7d540ed9352b47b1453') in 0.041202 seconds
+  Import took 0.047254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/menu mobile games/lilac/figures/1.png
+  artifactKey: Guid(0d33f743fe0da39439624b8611532923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/1.png using Guid(0d33f743fe0da39439624b8611532923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0df605076378a73e1c9f6ad9abcfc35') in 0.039936 seconds
+  Import took 0.045770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/menu mobile games/lilac/figures/3.png
+  artifactKey: Guid(ea2e8706413daa54fb29e1ed4216ff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/3.png using Guid(ea2e8706413daa54fb29e1ed4216ff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bebf743ec7f5e7d6e0a4f64e1658e4') in 0.038100 seconds
+  Import took 0.043994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/menu mobile games/lilac/figures/4.png
+  artifactKey: Guid(ad5d5a91d176a2343a57cd1aa8577ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/4.png using Guid(ad5d5a91d176a2343a57cd1aa8577ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f16c897cf517aa8775779ad95fcc19') in 0.037719 seconds
+  Import took 0.044108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000731 seconds.
+  path: Assets/menu mobile games/lilac/figures/7.png
+  artifactKey: Guid(f84d09827de0eab47b8cfd2a702ea04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/7.png using Guid(f84d09827de0eab47b8cfd2a702ea04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435bbfcbf614baa4df09b923e43eacdc') in 0.038443 seconds
+  Import took 0.044469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/menu mobile games/lilac/figures/5.png
+  artifactKey: Guid(2c7c581f1a099364d9e8d12ecb02ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/5.png using Guid(2c7c581f1a099364d9e8d12ecb02ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14652d0954bf699c3bb85884aafeee77') in 0.036074 seconds
+  Import took 0.042004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000685 seconds.
+  path: Assets/menu mobile games/lilac/figures/2.png
+  artifactKey: Guid(b7e204d3cf5c96648ba172524ea1dfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/figures/2.png using Guid(b7e204d3cf5c96648ba172524ea1dfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333527379bc22b4c399622c530b2d0cc') in 0.038400 seconds
+  Import took 0.045775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.719725 seconds.
+  path: Assets/menu mobile games/lilac/frame
+  artifactKey: Guid(2a4af05f049614943829ebab320c7aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/frame using Guid(2a4af05f049614943829ebab320c7aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3558968c0c857c4c43ca171b80709e') in 0.012594 seconds
+  Import took 0.019600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054104 seconds.
+  path: Assets/menu mobile games/lilac/frame/round frame.png
+  artifactKey: Guid(fe2f965b580651346b9080e5f4587ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/frame/round frame.png using Guid(fe2f965b580651346b9080e5f4587ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676b5f71dee3cf86c47fd6a06150a08a') in 0.040265 seconds
+  Import took 0.047025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/menu mobile games/lilac/frame/square frame.png
+  artifactKey: Guid(8ee48bf85fef2424d8336501fd33121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/frame/square frame.png using Guid(8ee48bf85fef2424d8336501fd33121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c814bb4ce897300159c6d5c84953361d') in 0.037640 seconds
+  Import took 0.044020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.513172 seconds.
+  path: Assets/menu mobile games/lilac/button/repeat.png
+  artifactKey: Guid(5d2520f4ed2381644865ade67ccbdec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/repeat.png using Guid(5d2520f4ed2381644865ade67ccbdec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a4b04f6ac924a875dc8dac69e28e82') in 0.060138 seconds
+  Import took 0.068402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000958 seconds.
+  path: Assets/menu mobile games/yellow/frame/round frame.png
+  artifactKey: Guid(7fba5f93b63801b4fa8aad2f0e9a11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/frame/round frame.png using Guid(7fba5f93b63801b4fa8aad2f0e9a11ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba2811f9266ba08b799fc5b2230bc87') in 0.034514 seconds
+  Import took 0.041740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/menu mobile games/blue/frame/round frame.png
+  artifactKey: Guid(b740cb535ada5414eadf2b9297122c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/frame/round frame.png using Guid(b740cb535ada5414eadf2b9297122c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602936e7b41e05b8e63d1267f6179115') in 0.040955 seconds
+  Import took 0.046745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/menu mobile games/yellow/button/sound.png
+  artifactKey: Guid(ad09b5ebc663aad4685181203567adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/sound.png using Guid(ad09b5ebc663aad4685181203567adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232ed7488c9e7932449877dc258b2b29') in 0.043296 seconds
+  Import took 0.049057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000682 seconds.
+  path: Assets/menu mobile games/yellow/button/settings.png
+  artifactKey: Guid(3f95089c7757ad547ae36f5d00fb9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/settings.png using Guid(3f95089c7757ad547ae36f5d00fb9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076ffea6418948d58d129c478e62cba8') in 0.040834 seconds
+  Import took 0.048003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000700 seconds.
+  path: Assets/menu mobile games/green/frame/round frame.png
+  artifactKey: Guid(bfc898367729dd34e8ff7446ed71acd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/frame/round frame.png using Guid(bfc898367729dd34e8ff7446ed71acd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9e4199254dd03ab738a758cefe0467') in 0.037462 seconds
+  Import took 0.044422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001128 seconds.
+  path: Assets/menu mobile games/lilac/button/settings.png
+  artifactKey: Guid(1a585043123d0ea479b0bee27a36e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/settings.png using Guid(1a585043123d0ea479b0bee27a36e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02046004dd48a8d3296eb61fe01fdd53') in 0.037771 seconds
+  Import took 0.044554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/menu mobile games/yellow/button/settings.png
+  artifactKey: Guid(3f95089c7757ad547ae36f5d00fb9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/settings.png using Guid(3f95089c7757ad547ae36f5d00fb9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076ffea6418948d58d129c478e62cba8') in 0.043355 seconds
+  Import took 0.050576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006885 seconds.
+  path: Assets/menu mobile games/lilac/button/settings.png
+  artifactKey: Guid(1a585043123d0ea479b0bee27a36e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/settings.png using Guid(1a585043123d0ea479b0bee27a36e8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02046004dd48a8d3296eb61fe01fdd53') in 0.037545 seconds
+  Import took 0.044056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.328148 seconds.
+  path: Assets/menu mobile games/lilac/button/sound.png
+  artifactKey: Guid(e46b20fcf63ab474ba0fdfca3d229016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/sound.png using Guid(e46b20fcf63ab474ba0fdfca3d229016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44215c66d9a7a12982ad9200ce8fb384') in 0.045609 seconds
+  Import took 0.052573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/menu mobile games/blue/frame/square frame.png
+  artifactKey: Guid(b21d9f74df22e6142a599dbddb1eaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/frame/square frame.png using Guid(b21d9f74df22e6142a599dbddb1eaf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d548d69e7d70eb49df6cae66fea7eb1') in 0.040808 seconds
+  Import took 0.049185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.628483 seconds.
+  path: Assets/menu mobile games/yellow/frame/square frame.png
+  artifactKey: Guid(179837f56d78e2044bc4ba34b3d4ccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/frame/square frame.png using Guid(179837f56d78e2044bc4ba34b3d4ccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efff3013d97358484d8d6d5e697487e') in 0.042261 seconds
+  Import took 0.049313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/menu mobile games/green/frame/square frame.png
+  artifactKey: Guid(998e64d4e995aaf4c841406ab0058bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/frame/square frame.png using Guid(998e64d4e995aaf4c841406ab0058bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe9bc399491d15f19d4ce82987c2422') in 0.043763 seconds
+  Import took 0.051082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419935 seconds.
+  path: Assets/menu mobile games/lilac/button/question.png
+  artifactKey: Guid(84b2675b23c54c048aceb3409459d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/question.png using Guid(84b2675b23c54c048aceb3409459d0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a67b7214c81d6473f25b6964b837cb') in 0.104642 seconds
+  Import took 0.116288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/menu mobile games/yellow/button/repeat.png
+  artifactKey: Guid(f2c87f5af49b747488ffec72ce4e25ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/repeat.png using Guid(f2c87f5af49b747488ffec72ce4e25ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f67ac2a737f289b48002b73b0941a6') in 0.038365 seconds
+  Import took 0.044566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084873 seconds.
+  path: Assets/menu mobile games/yellow/button/play.png
+  artifactKey: Guid(24eec5d9bff06814784d398c9e04cd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/play.png using Guid(24eec5d9bff06814784d398c9e04cd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b049edc9b8ed2e5915f2d9a141a991fc') in 0.038670 seconds
+  Import took 0.044550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/menu mobile games/yellow/button/question.png
+  artifactKey: Guid(9b098c5be26c0e2499d1736cfec7b08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/question.png using Guid(9b098c5be26c0e2499d1736cfec7b08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0ec36748198840df32d588d1ac0527') in 0.036984 seconds
+  Import took 0.042852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/menu mobile games/lilac/button/players rating.png
+  artifactKey: Guid(25482f92485397845afe4d21ce9553d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/players rating.png using Guid(25482f92485397845afe4d21ce9553d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca3301ee188b07507c18c300005ff38') in 0.037439 seconds
+  Import took 0.042930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000858 seconds.
+  path: Assets/menu mobile games/yellow/button/players rating.png
+  artifactKey: Guid(253f905b6889afe4da37453344a46aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/players rating.png using Guid(253f905b6889afe4da37453344a46aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb082080e8d7b095e9b15bb52c8dd50') in 0.041915 seconds
+  Import took 0.048357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/menu mobile games/lilac/button/play.png
+  artifactKey: Guid(164f0952e752b9443ba43a612aaf1bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/play.png using Guid(164f0952e752b9443ba43a612aaf1bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3629b2e1f20b73354814cae573eee2') in 0.047358 seconds
+  Import took 0.053608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/menu mobile games/yellow/button/pause.png
+  artifactKey: Guid(00d13f9db79117d4f90cb6e1782a26e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/pause.png using Guid(00d13f9db79117d4f90cb6e1782a26e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b1515547350e879821d107499f21fe') in 0.038178 seconds
+  Import took 0.043707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/menu mobile games/lilac/button/pause.png
+  artifactKey: Guid(b1cc2fa7bb6a4984f9d240dff457801f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/pause.png using Guid(b1cc2fa7bb6a4984f9d240dff457801f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7cc5f4a740a4dfdf46be384f54751c') in 0.039920 seconds
+  Import took 0.046307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/menu mobile games/yellow/button/ok.png
+  artifactKey: Guid(34ba00f13e63af147afbaa796691eae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/ok.png using Guid(34ba00f13e63af147afbaa796691eae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185d3d9ac9a8a330e2adcb16fdac9c1d') in 0.038412 seconds
+  Import took 0.044406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026259 seconds.
+  path: Assets/menu mobile games/lilac/button/pause.png
+  artifactKey: Guid(b1cc2fa7bb6a4984f9d240dff457801f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/pause.png using Guid(b1cc2fa7bb6a4984f9d240dff457801f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7cc5f4a740a4dfdf46be384f54751c') in 0.036189 seconds
+  Import took 0.042876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.573825 seconds.
+  path: Assets/menu mobile games/lilac/button/ok.png
+  artifactKey: Guid(ce51cf8ddb8723644951393f5601a8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/ok.png using Guid(ce51cf8ddb8723644951393f5601a8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c20effacbcadace8e364af1b99d0af') in 0.050069 seconds
+  Import took 0.057787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083540 seconds.
+  path: Assets/menu mobile games/yellow/button/lock.png
+  artifactKey: Guid(0afa866ad6b5519458dd6e441ce4246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/lock.png using Guid(0afa866ad6b5519458dd6e441ce4246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc21acb915767a8057fe8c11a437c1b') in 0.047948 seconds
+  Import took 0.055158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/menu mobile games/yellow/button/menu.png
+  artifactKey: Guid(f4e727041a6659b4eae099b9be0ca531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/menu.png using Guid(f4e727041a6659b4eae099b9be0ca531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285b2d29a93ac6046af405fdd8c140a2') in 0.042247 seconds
+  Import took 0.049006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/menu mobile games/lilac/button/like.png
+  artifactKey: Guid(783bff1c78e6ede43a15777252f9eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/like.png using Guid(783bff1c78e6ede43a15777252f9eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f9d3358e3fae983e6323781b033836') in 0.042067 seconds
+  Import took 0.050258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/menu mobile games/lilac/button/menu.png
+  artifactKey: Guid(86ca3b1168b43c047a2372861886b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/menu.png using Guid(86ca3b1168b43c047a2372861886b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da2010dc4db4083abf5875734635f14') in 0.050815 seconds
+  Import took 0.057143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/menu mobile games/yellow/button/like.png
+  artifactKey: Guid(f3d340699e361e04d833d8b824fb0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/like.png using Guid(f3d340699e361e04d833d8b824fb0a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734fb55eb7ea022f69dd34f0f004f3ba') in 0.046597 seconds
+  Import took 0.054422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/menu mobile games/yellow/button/Invite.png
+  artifactKey: Guid(c5eeb756338078e43bcae45eaa3577aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/Invite.png using Guid(c5eeb756338078e43bcae45eaa3577aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e448092159c97b8d6700aad69b9537') in 0.046104 seconds
+  Import took 0.052097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000836 seconds.
+  path: Assets/menu mobile games/lilac/button/lock.png
+  artifactKey: Guid(083a1df2eb4837c48a6cafe2b96b37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/lock.png using Guid(083a1df2eb4837c48a6cafe2b96b37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5126ceed11ab8660f3b4e4c06cf525') in 0.038766 seconds
+  Import took 0.044657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010105 seconds.
+  path: Assets/menu mobile games/lilac/button/lock.png
+  artifactKey: Guid(083a1df2eb4837c48a6cafe2b96b37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/lock.png using Guid(083a1df2eb4837c48a6cafe2b96b37eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5126ceed11ab8660f3b4e4c06cf525') in 0.030667 seconds
+  Import took 0.038519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048188 seconds.
+  path: Assets/menu mobile games/lilac/button/info.png
+  artifactKey: Guid(d4befcb7bc2942f4f9426ca259fa3c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/info.png using Guid(d4befcb7bc2942f4f9426ca259fa3c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073a6ba51067c660d89f1604522fba1d') in 0.038576 seconds
+  Import took 0.045055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/menu mobile games/lilac/button/Invite.png
+  artifactKey: Guid(3d235bf09b621454492a22a20395bcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/Invite.png using Guid(3d235bf09b621454492a22a20395bcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef38c9490f8d7724786ca669e60ec88') in 0.041225 seconds
+  Import took 0.047178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390792 seconds.
+  path: Assets/menu mobile games/lilac/button/home.png
+  artifactKey: Guid(01a3163aca4a4b346bbe40829ff80d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/home.png using Guid(01a3163aca4a4b346bbe40829ff80d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa96476c3beaf431433999e142a01372') in 0.059835 seconds
+  Import took 0.067893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/menu mobile games/yellow/button/home.png
+  artifactKey: Guid(6cb45ac5ddd16a54791657c72261c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/home.png using Guid(6cb45ac5ddd16a54791657c72261c6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6584331001da6950ee15886c95d9e5') in 0.041704 seconds
+  Import took 0.048092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/menu mobile games/yellow/button/info.png
+  artifactKey: Guid(201d1a6f19196bc4694d3da0ccb633b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/info.png using Guid(201d1a6f19196bc4694d3da0ccb633b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819018c5022268627645df5af95971f4') in 0.039727 seconds
+  Import took 0.045395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/menu mobile games/yellow/button/facebook.png
+  artifactKey: Guid(f1e4103d913f7a44f9e88f300ecf4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/facebook.png using Guid(f1e4103d913f7a44f9e88f300ecf4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0aeef439793375c5b6f765b68299eed') in 0.039183 seconds
+  Import took 0.044903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/menu mobile games/lilac/button/facebook.png
+  artifactKey: Guid(cf9f51111be277e4da8bd0bc60d30af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/facebook.png using Guid(cf9f51111be277e4da8bd0bc60d30af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2ae0087b3c7c2a0f0b8e385997227') in 0.036059 seconds
+  Import took 0.042683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/menu mobile games/yellow/button/empty.png
+  artifactKey: Guid(86b9edc0cd7123c4cbbae1c784bbddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/empty.png using Guid(86b9edc0cd7123c4cbbae1c784bbddb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e632cd97535f94d62bbe736af4adea') in 0.040618 seconds
+  Import took 0.046728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006400 seconds.
+  path: Assets/menu mobile games/lilac/button/facebook.png
+  artifactKey: Guid(cf9f51111be277e4da8bd0bc60d30af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/facebook.png using Guid(cf9f51111be277e4da8bd0bc60d30af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2ae0087b3c7c2a0f0b8e385997227') in 0.035061 seconds
+  Import took 0.040803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.923292 seconds.
+  path: Assets/menu mobile games/yellow/button/cup.png
+  artifactKey: Guid(8c44c828dd5e907489895aa9d67c498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/cup.png using Guid(8c44c828dd5e907489895aa9d67c498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa1b1ec56a213d21abbe5d1618e0ab4') in 0.053487 seconds
+  Import took 0.062985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/menu mobile games/lilac/button/empty.png
+  artifactKey: Guid(73655cea0e072b5419dd7be2d98216c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/empty.png using Guid(73655cea0e072b5419dd7be2d98216c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e22cd58fbff3bd2fe24fd31161d546') in 0.041520 seconds
+  Import took 0.048326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/menu mobile games/lilac/button/cancel.png
+  artifactKey: Guid(62cf7a425d11da34b8faa1131839e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/cancel.png using Guid(62cf7a425d11da34b8faa1131839e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1bde51e6f10cda52c4daea45f4673d') in 0.040050 seconds
+  Import took 0.046206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/menu mobile games/yellow/figures/9.png
+  artifactKey: Guid(cbf47adbd56f76d4597c9a4beac331da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/figures/9.png using Guid(cbf47adbd56f76d4597c9a4beac331da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311fe3239de8653519d273ee9abfbd48') in 0.040274 seconds
+  Import took 0.047027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/menu mobile games/yellow/button/back.png
+  artifactKey: Guid(1bf29c9a02437b04daecc47fcfb3fbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/back.png using Guid(1bf29c9a02437b04daecc47fcfb3fbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c381adcb18fa6af34065e807fd7a648') in 0.046679 seconds
+  Import took 0.053795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001331 seconds.
+  path: Assets/menu mobile games/blue/figures/0.png
+  artifactKey: Guid(0aab6a040776bc1408c105be641a9327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/0.png using Guid(0aab6a040776bc1408c105be641a9327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f466328999490ae5d5ec7a4ad3322dc8') in 0.035051 seconds
+  Import took 0.041606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/menu mobile games/yellow/figures/2.png
+  artifactKey: Guid(f90b3b551419d0347860cd9c2a1fc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/figures/2.png using Guid(f90b3b551419d0347860cd9c2a1fc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda6b98f69bbd9d59e6c7cce371a1bda') in 0.034931 seconds
+  Import took 0.040846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/menu mobile games/yellow/figures/8.png
+  artifactKey: Guid(8d27d93a8fe15c440afd06370710c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/figures/8.png using Guid(8d27d93a8fe15c440afd06370710c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dde12ef83782f630203c2dbf663e38c') in 0.032160 seconds
+  Import took 0.037829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/menu mobile games/lilac/button/back.png
+  artifactKey: Guid(f7046518d1dba7146ad025a8a70aa4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/back.png using Guid(f7046518d1dba7146ad025a8a70aa4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05eccad950bc8580700f043178bd304') in 0.034536 seconds
+  Import took 0.040112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000825 seconds.
+  path: Assets/menu mobile games/blue/figures/1.png
+  artifactKey: Guid(723d7a7d47afb724dbc96f87257132b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/1.png using Guid(723d7a7d47afb724dbc96f87257132b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11a0be4302d05cd48047c4b62b7d07e') in 0.033987 seconds
+  Import took 0.040017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/menu mobile games/green/figures/2.png
+  artifactKey: Guid(6a3641538cc580c449232ae28396abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/figures/2.png using Guid(6a3641538cc580c449232ae28396abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992de4ab533d235307d3e482794c5b44') in 0.037072 seconds
+  Import took 0.044041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/menu mobile games/blue/figures/2.png
+  artifactKey: Guid(7ffe78796e6aab94fb9f371c4540cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/2.png using Guid(7ffe78796e6aab94fb9f371c4540cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5024e02e059069e67295d341e08a0') in 0.041932 seconds
+  Import took 0.047884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000777 seconds.
+  path: Assets/menu mobile games/green/figures/7.png
+  artifactKey: Guid(eaa38d5109fb9b44ba2f9fadf28a593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/figures/7.png using Guid(eaa38d5109fb9b44ba2f9fadf28a593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c8c96dab0fb31bd17d4f691c175524') in 0.036123 seconds
+  Import took 0.042015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/menu mobile games/green/figures/9.png
+  artifactKey: Guid(842c432f3ecf9c84d9bc8ec50949d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/figures/9.png using Guid(842c432f3ecf9c84d9bc8ec50949d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde8af0bd39132982e9d2d12c880bdd') in 0.036845 seconds
+  Import took 0.042550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000617 seconds.
+  path: Assets/menu mobile games/green/figures/0.png
+  artifactKey: Guid(c1431fc37ce9b044196ac119cb44b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/figures/0.png using Guid(c1431fc37ce9b044196ac119cb44b6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d962a43c4fbe263d6ff4afc61574edf') in 0.042568 seconds
+  Import took 0.048211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/menu mobile games/blue/figures/8.png
+  artifactKey: Guid(4e48199734708f844b5359c2f67b6e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/8.png using Guid(4e48199734708f844b5359c2f67b6e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba5569b509908570c0358637be2d86e') in 0.035563 seconds
+  Import took 0.041323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/menu mobile games/green/figures/8.png
+  artifactKey: Guid(026149d4e4b2a3745a19260b16a1a2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/figures/8.png using Guid(026149d4e4b2a3745a19260b16a1a2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f932d90d2d0241797945dca65feb3cb1') in 0.038739 seconds
+  Import took 0.045279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/menu mobile games/green/figures/1.png
+  artifactKey: Guid(e7399163660c5844abfdb99994c4591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/green/figures/1.png using Guid(e7399163660c5844abfdb99994c4591a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547c6f78d90c61e6c583e8930bb0f82f') in 0.038842 seconds
+  Import took 0.045200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/menu mobile games/yellow/button/cancel.png
+  artifactKey: Guid(0d027921e7553a0479d7d08250288354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/button/cancel.png using Guid(0d027921e7553a0479d7d08250288354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15080da81cbad6468f115e4473bf8402') in 0.041690 seconds
+  Import took 0.048387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/menu mobile games/yellow/figures/1.png
+  artifactKey: Guid(68912057f4abf544c9580c705a5444d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/figures/1.png using Guid(68912057f4abf544c9580c705a5444d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f5cfee94acd594dd232e70516e7baf') in 0.040516 seconds
+  Import took 0.046704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/menu mobile games/yellow/figures/0.png
+  artifactKey: Guid(3408d535c37be2b4d9144a6e697eebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/yellow/figures/0.png using Guid(3408d535c37be2b4d9144a6e697eebfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f1ba3855c0841c7b9be72c6d13d2b5') in 0.040302 seconds
+  Import took 0.046462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000831 seconds.
+  path: Assets/menu mobile games/blue/figures/9.png
+  artifactKey: Guid(da3d7cf82dc75e8479ff6b158c606e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/9.png using Guid(da3d7cf82dc75e8479ff6b158c606e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf4babaeac1ce57c8864f3dbf26873a') in 0.042099 seconds
+  Import took 0.048083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/menu mobile games/lilac/button/cup.png
+  artifactKey: Guid(defc00bbe92b7564db6d80a72491ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/lilac/button/cup.png using Guid(defc00bbe92b7564db6d80a72491ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f675c94d4209a4731c7b2cdb3f3895') in 0.044691 seconds
+  Import took 0.051104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.274070 seconds.
+  path: Assets/menu mobile games/blue/figures
+  artifactKey: Guid(1f814e4655612b2429964aa86dc6acb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures using Guid(1f814e4655612b2429964aa86dc6acb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136703eda0875f8692a9dbefd41da9e7') in 0.013787 seconds
+  Import took 0.020626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071653 seconds.
+  path: Assets/menu mobile games/blue/figures/3.png
+  artifactKey: Guid(8be66059539ecac4e83234ad8e37240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/3.png using Guid(8be66059539ecac4e83234ad8e37240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c12d0d6c1814accfe506da0c6aceb1') in 0.043278 seconds
+  Import took 0.050794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/menu mobile games/blue/figures/4.png
+  artifactKey: Guid(db52ec06382e86245bf082847efc0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/4.png using Guid(db52ec06382e86245bf082847efc0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2155941bcf8d2a96ae11a34a1ad1c1fc') in 0.043134 seconds
+  Import took 0.048971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/menu mobile games/blue/figures/5.png
+  artifactKey: Guid(b1d5a3390ab680e4e87ef2dc26a189b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/5.png using Guid(b1d5a3390ab680e4e87ef2dc26a189b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20ae4bb0e2524e4479537f7269acca3') in 0.039261 seconds
+  Import took 0.045422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/menu mobile games/blue/figures/4.png
+  artifactKey: Guid(db52ec06382e86245bf082847efc0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/4.png using Guid(db52ec06382e86245bf082847efc0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2155941bcf8d2a96ae11a34a1ad1c1fc') in 0.042840 seconds
+  Import took 0.049408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/menu mobile games/blue/figures/6.png
+  artifactKey: Guid(419978efd5ad5084a892bd683f293f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/6.png using Guid(419978efd5ad5084a892bd683f293f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2b8065519442e190aba5d5a61f77c9') in 0.041489 seconds
+  Import took 0.047367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000973 seconds.
+  path: Assets/menu mobile games/blue/figures/7.png
+  artifactKey: Guid(dccc9f0f45d3d634492ee982b6412ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/figures/7.png using Guid(dccc9f0f45d3d634492ee982b6412ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c10c71e7c00ca6bddbd1a76266cb280') in 0.035110 seconds
+  Import took 0.041076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.758996 seconds.
+  path: Assets/menu mobile games/blue/frame
+  artifactKey: Guid(42d1c2982ca4c9145b8a8ca054843aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/menu mobile games/blue/frame using Guid(42d1c2982ca4c9145b8a8ca054843aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4871eb85634ced4cd9b40c07d1068b6d') in 0.014987 seconds
+  Import took 0.021185 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002771 seconds.
+Registered in 0.002207 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -141,559 +1751,15 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.429 seconds
+- Completed reload, in  2.015 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 4.864500 ms (FindLiveObjects: 0.413900 ms CreateObjectMapping: 0.066900 ms MarkObjects: 4.149500 ms  DeleteObjects: 0.231600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002103 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.108 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 9.020000 ms (FindLiveObjects: 0.962800 ms CreateObjectMapping: 0.365000 ms MarkObjects: 7.407000 ms  DeleteObjects: 0.281100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002312 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.274 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1957.
-Total: 7.057900 ms (FindLiveObjects: 0.389700 ms CreateObjectMapping: 0.098300 ms MarkObjects: 6.292800 ms  DeleteObjects: 0.272500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003073 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.286 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 7.586400 ms (FindLiveObjects: 0.583800 ms CreateObjectMapping: 0.111500 ms MarkObjects: 6.575900 ms  DeleteObjects: 0.311400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002012 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.478 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
+System memory in use before: 87.0 MB.
+System memory in use after: 87.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1963.
-Total: 5.783600 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.090600 ms MarkObjects: 5.021900 ms  DeleteObjects: 0.262500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002458 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.309 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1966.
-Total: 5.519500 ms (FindLiveObjects: 0.424600 ms CreateObjectMapping: 0.066900 ms MarkObjects: 4.735000 ms  DeleteObjects: 0.289700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002021 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.636 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1969.
-Total: 6.267900 ms (FindLiveObjects: 0.410400 ms CreateObjectMapping: 0.099100 ms MarkObjects: 5.506800 ms  DeleteObjects: 0.248300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002178 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.500 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.7 MB.
-System memory in use after: 82.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1972.
-Total: 5.538800 ms (FindLiveObjects: 0.509500 ms CreateObjectMapping: 0.109600 ms MarkObjects: 4.605400 ms  DeleteObjects: 0.310400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002079 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.342 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1975.
-Total: 5.190800 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.061800 ms MarkObjects: 4.425800 ms  DeleteObjects: 0.276700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002090 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.987 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1978.
-Total: 5.163500 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.062300 ms MarkObjects: 4.401700 ms  DeleteObjects: 0.272900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003810 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.908 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1981.
-Total: 8.581900 ms (FindLiveObjects: 0.569000 ms CreateObjectMapping: 0.100700 ms MarkObjects: 7.591100 ms  DeleteObjects: 0.317300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002114 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.235 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1984.
-Total: 5.742700 ms (FindLiveObjects: 0.438700 ms CreateObjectMapping: 0.091400 ms MarkObjects: 4.932600 ms  DeleteObjects: 0.275500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002126 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.903 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1987.
-Total: 5.315200 ms (FindLiveObjects: 0.583500 ms CreateObjectMapping: 0.100700 ms MarkObjects: 4.357900 ms  DeleteObjects: 0.269300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001992 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.834 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1990.
-Total: 5.516600 ms (FindLiveObjects: 0.544200 ms CreateObjectMapping: 0.076100 ms MarkObjects: 4.599500 ms  DeleteObjects: 0.293700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002101 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.943 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1993.
-Total: 4.970600 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.061200 ms MarkObjects: 4.218900 ms  DeleteObjects: 0.266600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003560 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.022 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1996.
-Total: 5.261600 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 0.075400 ms MarkObjects: 4.411000 ms  DeleteObjects: 0.273000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002662 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.881 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1999.
-Total: 6.111500 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.145500 ms MarkObjects: 5.165500 ms  DeleteObjects: 0.267300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002655 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.998 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.6 MB.
-System memory in use after: 82.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2002.
-Total: 5.971000 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.093200 ms MarkObjects: 5.131400 ms  DeleteObjects: 0.329400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2000.
+Total: 5.715100 ms (FindLiveObjects: 0.429800 ms CreateObjectMapping: 0.095400 ms MarkObjects: 4.960300 ms  DeleteObjects: 0.226900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
