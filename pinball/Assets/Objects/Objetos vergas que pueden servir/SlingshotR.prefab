@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81d66ddb25d6bd4399c90ad63c3519b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slingshotForce: 100
+  slingshotForce: 1
 --- !u!1 &4449996662424240296
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81d66ddb25d6bd4399c90ad63c3519b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slingshotForce: 100
+  slingshotForce: 1
 --- !u!1 &4449996663013174118
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81d66ddb25d6bd4399c90ad63c3519b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slingshotForce: 100
+  slingshotForce: 1
 --- !u!1 &4449996663186865222
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81d66ddb25d6bd4399c90ad63c3519b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slingshotForce: 100
+  slingshotForce: 1
 --- !u!1 &8577294240170386487
 GameObject:
   m_ObjectHideFlags: 0
