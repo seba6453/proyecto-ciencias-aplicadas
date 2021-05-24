@@ -11,8 +11,6 @@ public class Plunger : MonoBehaviour
     bool ballReady;
     private Rigidbody rigidBody;    
 	private Vector3 position;
-    private Vector3 originalPosition;
-    private Vector3 finalPosition;
  	// private bool push;
 	private GameObject ball;
     // Start is called before the first frame update
@@ -23,8 +21,6 @@ public class Plunger : MonoBehaviour
         ballList = new List<Rigidbody>();
         rigidBody = GetComponent<Rigidbody>();    
     	position = transform.position;
-        originalPosition = new Vector3(gameObject.transform.position.x,gameObject.transform.position.y,gameObject.transform.position.z);
-    	finalPosition = new Vector3(gameObject.transform.position.x,gameObject.transform.position.y,gameObject.transform.position.z + maxPower);
         ball = GameObject.FindWithTag("Ball");
     }
 
@@ -42,9 +38,7 @@ public class Plunger : MonoBehaviour
             ballReady = true;
             if(Input.GetKey(KeyCode.Space)){
                 if(power <= maxPower){
-                    power += 50 * Time.deltaTime;
-                    position.z -= 0.05f;
-                    rigidBody.transform.position = position;
+                    power += 500 * Time.deltaTime;
                 }
                 
             }
