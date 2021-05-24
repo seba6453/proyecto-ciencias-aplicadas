@@ -11,7 +11,7 @@ public class ScriptDropT : MonoBehaviour
     
     void Start(){                                   //Se obtienen los Collider y Rigidbody de cada DT
         col1 = DT1.GetComponent<Collider>();        //Ademas se guarda su posicion inicial
-        rb1 = DT1.GetComponent<Rigidbody>();        //Se definen los 3 DT y aumenta la cantidad
+        rb1 = DT1.GetComponent<Rigidbody>();        //Se definen los 3 DT
         GuardarPos(DT1.transform.position); 
         col2 = DT2.GetComponent<Collider>();
         rb2 = DT2.GetComponent<Rigidbody>();
@@ -32,7 +32,7 @@ public class ScriptDropT : MonoBehaviour
     }
 
     void subir(Collider col,Rigidbody rb,GameObject gameObject){
-        rb.AddForce(Vector3.up * 70f, ForceMode.Impulse);  //Hace que suban con mayor impulso
+        rb.AddForce(Vector3.up * 50f, ForceMode.Impulse);   //Hace que suban con mayor impulso
         cantDT += 1;                                        //quiere decir que el DT esta levantado
         Debug.Log(cantDT);
         StartCoroutine(esperar(col,gameObject));         
@@ -40,8 +40,8 @@ public class ScriptDropT : MonoBehaviour
 
     IEnumerator esperar(Collider col,GameObject gameObject){
         yield return new WaitForSeconds(1f);                  //espera por 0.5 segundos
-        col.enabled = true;                                     //se activa el collider del DT
-        gameObject.transform.position = CargarPos();            //se carga la posicion inicial
+        gameObject.transform.position = CargarPos();         //se carga la posicion inicial
+        col.enabled = true;                                 //se activa el collider del DT
     }
 
     public static void GuardarPos(Vector3 Posicion){        //Guarda la posicion de cada componente

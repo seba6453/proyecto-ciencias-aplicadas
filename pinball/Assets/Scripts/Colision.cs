@@ -13,7 +13,6 @@ public class Colision : MonoBehaviour
     public void OnCollisionEnter(Collision collision) //collision ->DT ;collision.collider -> Pelota
     {
         if(collision.collider.gameObject.CompareTag("Ball")){ //Si el objecto que toco el DT tiene tag "Ball" entra
-            Destroy(collision.collider.gameObject);
             col.enabled = false;                        // El collider del DT se desactiva y el DT se cae
             rb.AddForce(Vector3.down * 150f, ForceMode.Impulse);  //Hace que caiga con mayor impulso
             ScriptDropT.cantDT -=1;
