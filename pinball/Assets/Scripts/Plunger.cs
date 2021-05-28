@@ -38,7 +38,7 @@ public class Plunger : MonoBehaviour
             ballReady = true;
             if(Input.GetKey(KeyCode.Space)){
                 if(power <= maxPower){
-                    power += 500 * Time.deltaTime;
+                    power += 100 * Time.deltaTime;
                 }
                 
             }
