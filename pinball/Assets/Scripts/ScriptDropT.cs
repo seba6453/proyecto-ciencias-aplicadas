@@ -32,14 +32,14 @@ public class ScriptDropT : MonoBehaviour
     }
 
     void subir(Collider col,Rigidbody rb,GameObject gameObject){
-        rb.AddForce(Vector3.up * 50f, ForceMode.Impulse);   //Hace que suban con mayor impulso
+        //rb.AddForce(Vector3.up * 50f, ForceMode.Impulse);   //Hace que suban con mayor impulso
         cantDT += 1;                                        //quiere decir que el DT esta levantado
         Debug.Log(cantDT);
         StartCoroutine(esperar(col,gameObject));         
     }
 
     IEnumerator esperar(Collider col,GameObject gameObject){
-        yield return new WaitForSeconds(1f);                  //espera por 0.5 segundos
+        yield return new WaitForSeconds(1f);                  //espera por 2 segundos
         gameObject.transform.position = CargarPos();         //se carga la posicion inicial
         col.enabled = true;                                 //se activa el collider del DT
     }
