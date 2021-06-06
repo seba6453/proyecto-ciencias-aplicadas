@@ -20,6 +20,7 @@ public class ScriptDropT : MonoBehaviour
         rb3 = DT3.GetComponent<Rigidbody>();
         GuardarPos(DT3.transform.position);
         cantDT = 3;
+        Debug.Log(cantDT);
     }
 
     void Update()
