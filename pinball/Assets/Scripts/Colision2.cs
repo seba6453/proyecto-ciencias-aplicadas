@@ -8,6 +8,7 @@ public class Colision2 : MonoBehaviour
     public float speed;
     Collider col;
     static int cantDT2 = 0;
+    bool couroutineStarted = false;
     
     void Start(){
         col = GetComponent<Collider>();
@@ -23,11 +24,23 @@ public class Colision2 : MonoBehaviour
         }
     }
 
-    void Update()
+   void Update()
     {
         if(cantDT2 == 0){
             float step = speed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target2.position,step);
+            if(!couroutineStarted){
+                StartCoroutine(UsingYield(2));
+            }
         }        
     }
+ 
+   IEnumerator UsingYield(int seconds)
+   {
+        couroutineStarted = true;
+        yield return new WaitForSeconds(seconds);
+        col.enabled = true;
+        cantDT2 += 1;
+        couroutineStarted = false;
+   } 
 }

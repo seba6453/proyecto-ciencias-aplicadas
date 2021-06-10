@@ -8,7 +8,6 @@ public class Colision : MonoBehaviour
     public float speed;
     Collider col;
     static int cantDT = 0;
-    int number = 0;
     bool couroutineStarted = false;
     
     void Start(){
@@ -22,33 +21,26 @@ public class Colision : MonoBehaviour
             float step = speed * Time.deltaTime*25;
             transform.position = Vector3.MoveTowards(transform.position, target.position,step);
             cantDT -=1;
-            Debug.Log(cantDT);
         }
     }
 
     void Update()
     {
         if(cantDT == 0){
-            Debug.Log("xddd:"+cantDT);
             float step = speed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, target2.position,step);
-            Debug.Log(number);
             if(!couroutineStarted){
-                Debug.Log(number);
-                StartCoroutine(UsingYield(1));
+                StartCoroutine(UsingYield(2));
             }
-            col.enabled = true;
         }        
     }
  
    IEnumerator UsingYield(int seconds)
    {
-      couroutineStarted = true;
- 
-      yield return new WaitForSeconds(seconds);
-      number++;
-      Debug.Log(number);
- 
-      couroutineStarted = false;
+        couroutineStarted = true;
+        yield return new WaitForSeconds(seconds);
+        col.enabled = true;
+        cantDT += 1;
+        couroutineStarted = false;
    } 
 }
