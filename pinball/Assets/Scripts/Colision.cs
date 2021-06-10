@@ -22,4 +22,5 @@ public class Colision : MonoBehaviour
             
         }
     }
+    
 }

@@ -12,17 +12,18 @@ public class DropT2 : MonoBehaviour
     void Start(){                                   //Se obtienen los Collider y Rigidbody de cada DT
         col1 = DT1.GetComponent<Collider>();        //Ademas se guarda su posicion inicial
         rb1 = DT1.GetComponent<Rigidbody>();        //Se definen los 3 DT
-        GuardarPos(DT1.transform.position); 
+        /*GuardarPos(DT1.transform.position); 
         col2 = DT2.GetComponent<Collider>();
         rb2 = DT2.GetComponent<Rigidbody>();
         GuardarPos(DT2.transform.position);
         col3 = DT3.GetComponent<Collider>(); 
         rb3 = DT3.GetComponent<Rigidbody>();
-        GuardarPos(DT3.transform.position);
+        GuardarPos(DT3.transform.position);*/
         cantDT2 = 3;
         Debug.Log(cantDT2);
     }
 
+    /*
     void Update()
     {
         if(cantDT2 == 0){ 
@@ -57,5 +58,5 @@ public class DropT2 : MonoBehaviour
         posicion.y = PlayerPrefs.GetFloat("y");
         posicion.z = PlayerPrefs.GetFloat("z");
         return posicion;
-    }
+    }*/
 }
