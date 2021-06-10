@@ -4,29 +4,30 @@ using UnityEngine;
 
 public class Colision2 : MonoBehaviour
 {
-    public Transform target;
+    public Transform target,target2;
     public float speed;
-    //Collider col;
-    //Rigidbody rb;
+    Collider col;
+    static int cantDT2 = 0;
+    
     void Start(){
-        //col = GetComponent<Collider>();
-        //rb = GetComponent<Rigidbody>();
+        col = GetComponent<Collider>();
+        cantDT2 +=1;
     }
-    /*public void OnCollisionEnter(Collision collision) //collision ->DT ;collision.collider -> Pelota
+    public void OnCollisionEnter(Collision collision) //collision ->DT ;collision.collider -> Pelota
     {
         if(collision.collider.gameObject.CompareTag("Ball")){ //Si el objecto que toco el DT tiene tag "Ball" entra
             col.enabled = false;                        // El collider del DT se desactiva y el DT se cae
-            //rb.AddForce(Vector3.down * 50f, ForceMode.Impulse);  //Hace que caiga con mayor impulso
-            if (!col.enabled){
-                DropT2.cantDT2 -=1;
-                Debug.Log(DropT2.cantDT2);
-            }
-            
+            float step = speed * Time.deltaTime*25;
+            transform.position = Vector3.MoveTowards(transform.position, target.position,step);
+            cantDT2 -=1;
         }
-    }*/
+    }
 
-    void Update(){
-        float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target.position,step);
+    void Update()
+    {
+        if(cantDT2 == 0){
+            float step = speed * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, target2.position,step);
+        }        
     }
 }
