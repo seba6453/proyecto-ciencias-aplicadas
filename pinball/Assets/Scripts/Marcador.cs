@@ -5,22 +5,25 @@ using UnityEngine;
 public class Marcador : MonoBehaviour
 {
 
-    public float score;
-    public float drops;
+    public float score = 0;
+    public float puntaje_bumper;
+    
+    public float puntaje_DropT;
+
+    public float puntaje_plunger;
+
     //agregar los otros objetos que suman puntos (hablarlo en reunion)
 
     void OnCollisionEnter(Collision col)
     {
         //Se compara con el nombre del objeto que tiene el collider, la otra forma es comparar por tag (hablarlo en reunion)
-        if (col.gameObject.name == "group_0_16768282")
+        if (col.gameObject.CompareTag("Bumper"))
         {
-            score += drops;
+            score += puntaje_bumper;
         }
-        if (col.gameObject.name == "group_0_3888547")
+        else if (col.gameObject.CompareTag("Slingshot"))
         {
-            score += drops;  // solo de prueba uwu
+            score += puntaje_plunger;  // solo de prueba uwu
         }
-
-
     }
 }
