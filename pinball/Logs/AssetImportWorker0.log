@@ -15,11 +15,11 @@ C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50497
+54547
 Successfully changed project path to: C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 C:/Users/gasri/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,127 +35,121 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.135451 seconds.
+Registered in 0.001881 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.456 seconds
+- Completed reload, in  1.212 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.082648 seconds.
+Registered in 0.000761 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001AAEF859040 doesn't match image C:\Users\gasri\Documents\GitHub\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.657 seconds
+- Completed reload, in  0.889 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.4 MB.
 System memory in use after: 86.4 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 2.158000 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.742800 ms  DeleteObjects: 0.158700 ms)
+Total: 5.370200 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.102700 ms MarkObjects: 4.529500 ms  DeleteObjects: 0.448000 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/Tablero2.unity
   artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62417ae8bb3dbd30e50245f684bce2b4') in 0.011819 seconds
-  Import took 0.017611 seconds .
+Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a33033e589c33fdeb902175587dcbe') in 0.011153 seconds
+  Import took 0.018742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.939118 seconds.
+  path: Assets/Scenes/Tablero2.unity
+  artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b12f38cea892b87512c44aa3d3758f4') in 0.005137 seconds
+  Import took 0.007874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.504761 seconds.
+  path: Assets/Scenes/Tablero2.unity
+  artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863273ac9e308569e59bf775262af109') in 0.002342 seconds
+  Import took 0.008060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7860.230076 seconds.
+  path: Assets/Scenes/Tablero2.unity
+  artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f40a92db2ca9837a6c88a92806cd681') in 0.014885 seconds
+  Import took 0.033108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.388068 seconds.
+  path: Assets/Scenes/Tablero2.unity
+  artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cee24d214bba77a7539149e7692f869') in 0.003341 seconds
+  Import took 0.010357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000791 seconds.
+  path: Assets/Scenes/Tablero2.unity
+  artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cee24d214bba77a7539149e7692f869') in 0.003301 seconds
+  Import took 0.006122 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000661 seconds.
+Registered in 0.000901 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001AAEFE46F10 doesn't match image C:\Users\gasri\Documents\GitHub\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 1.879500 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.576700 ms  DeleteObjects: 0.077200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 441.951683 seconds.
-  path: Assets/Scenes/Tablero2.unity
-  artifactKey: Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tablero2.unity using Guid(687c468a5d917e14a96069e5a5a5a157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73df7d44d6927b3bcbbdf7f251f66274') in 0.046079 seconds
-  Import took 0.049545 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000696 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001AAEEE6D040 doesn't match image C:\Users\gasri\Documents\GitHub\proyecto-ciencias-aplicadas\pinball\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.1 MB.
 System memory in use after: 84.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 2.481500 ms (FindLiveObjects: 0.275600 ms CreateObjectMapping: 0.111100 ms MarkObjects: 1.983500 ms  DeleteObjects: 0.109100 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 2.036400 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.705200 ms  DeleteObjects: 0.105600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
