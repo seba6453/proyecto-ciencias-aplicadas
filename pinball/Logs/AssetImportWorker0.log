@@ -15,11 +15,11 @@ C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56872
+57553
 Successfully changed project path to: C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 C:/Users/jmarc/Documents/GitHub/proyecto-ciencias-aplicadas/pinball
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,281 +35,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007714 seconds.
+Registered in 0.003240 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.925 seconds
+- Completed reload, in  1.578 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002153 seconds.
+Registered in 0.001277 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.188 seconds
+- Completed reload, in  1.255 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1580 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 90.9 MB.
 System memory in use after: 91.0 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2036.
-Total: 6.717900 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.130000 ms MarkObjects: 5.682400 ms  DeleteObjects: 0.449200 ms)
+Total: 3.841800 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.054700 ms MarkObjects: 3.249200 ms  DeleteObjects: 0.288400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/nivel4.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/nivel4.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072e8e2cd138e71f8f6124047f449c01') in 0.038389 seconds
-  Import took 0.045622 seconds .
+  path: Assets/Objects/Tablero5/stadium.obj
+  artifactKey: Guid(30276021ef9f7404cbdf73a20bec84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Tablero5/stadium.obj using Guid(30276021ef9f7404cbdf73a20bec84fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cad2f041964c3d2962d9d749bc4ced') in 0.304937 seconds
+  Import took 0.309159 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.380249 seconds.
-  path: Assets/Scenes/nivel5.unity
-  artifactKey: Guid(45989cbd3f45faa418ccb6b1292db264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/nivel5.unity using Guid(45989cbd3f45faa418ccb6b1292db264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7752ac76ef0c9bfd011ee5c9791b7c03') in 0.027276 seconds
-  Import took 0.037216 seconds .
+  Time since last request: 70.196993 seconds.
+  path: Assets/Objects/Tablero5/Stadiumobj.mtl
+  artifactKey: Guid(6eb52000eb3000744a5ca64dd0965b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Tablero5/Stadiumobj.mtl using Guid(6eb52000eb3000744a5ca64dd0965b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cfa7f2910028a9ff742ec149d506dc') in 0.019905 seconds
+  Import took 0.024091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.495740 seconds.
-  path: Assets/Materials/nivel3
-  artifactKey: Guid(63e559411d7595e45bacf68e806535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3 using Guid(63e559411d7595e45bacf68e806535c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090f105b4f3364d32adb72e4172f5e8d') in 0.020877 seconds
-  Import took 0.027252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056135 seconds.
-  path: Assets/Materials/nivel3/ball.mat
-  artifactKey: Guid(0f3afd5c610a9424188c13ece24a430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/ball.mat using Guid(0f3afd5c610a9424188c13ece24a430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91198d8e1240ea0fb2f0196eab611b9e') in 0.302744 seconds
-  Import took 0.309156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000866 seconds.
-  path: Assets/Materials/nivel3/gradas.mat
-  artifactKey: Guid(d15f68702d095ce4fbb4f6609902c1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/gradas.mat using Guid(d15f68702d095ce4fbb4f6609902c1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679857f8ebb82b6f5e66271628062a1f') in 0.050276 seconds
-  Import took 0.058892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000852 seconds.
-  path: Assets/Materials/nivel3/equipo1.mat
-  artifactKey: Guid(6d18cee79e5fa4c47a712e702189b640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/equipo1.mat using Guid(6d18cee79e5fa4c47a712e702189b640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d64a53f80cb01b7f0b2dcd86645efee') in 0.052267 seconds
-  Import took 0.060393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000800 seconds.
-  path: Assets/Materials/nivel3/equipo2.mat
-  artifactKey: Guid(b5398c6e8de4d864a8c6d213c47ddb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/equipo2.mat using Guid(b5398c6e8de4d864a8c6d213c47ddb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fc0f74c3d999e8d0d71f54f053a2a0') in 0.043838 seconds
-  Import took 0.052696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001038 seconds.
-  path: Assets/Materials/nivel3/paredes.mat
-  artifactKey: Guid(7295d035853c28c4dbca4783869f601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/paredes.mat using Guid(7295d035853c28c4dbca4783869f601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289fe77e136b617c391d0a2234b149ed') in 0.047781 seconds
-  Import took 0.056275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000972 seconds.
-  path: Assets/Materials/nivel3/tablero.mat
-  artifactKey: Guid(28044a7502636344a8477c687e0c66e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/tablero.mat using Guid(28044a7502636344a8477c687e0c66e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7916d56dd08b0ca8b025d28819743bdf') in 0.037945 seconds
-  Import took 0.046443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000803 seconds.
-  path: Assets/Materials/nivel3/paredes.physicMaterial
-  artifactKey: Guid(cb56c5136dbbbb145b75a3e4031ed5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/nivel3/paredes.physicMaterial using Guid(cb56c5136dbbbb145b75a3e4031ed5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfd6b0cd76ddfe8d40e901f7786be80') in 0.014829 seconds
-  Import took 0.022770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.525002 seconds.
-  path: Assets/Menu/Canvas_menu.prefab
-  artifactKey: Guid(822b7b31caa604e43aad1ef950bb1fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Canvas_menu.prefab using Guid(822b7b31caa604e43aad1ef950bb1fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172552be92cac316f20c7afde6a5754c') in 0.262378 seconds
-  Import took 0.269983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000890 seconds.
-  path: Assets/Menu/final.prefab
-  artifactKey: Guid(ad4489494b6c1144e8bf6f584f034205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/final.prefab using Guid(ad4489494b6c1144e8bf6f584f034205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69b906bdb7cbbd1825e046fe0009f6e') in 0.059893 seconds
-  Import took 0.069484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000735 seconds.
-  path: Assets/Menu/Poder.prefab
-  artifactKey: Guid(4b032b458d0a423488a0b75c693ef88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Menu/Poder.prefab using Guid(4b032b458d0a423488a0b75c693ef88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc456779aec0e241462877b731ea767') in 0.025201 seconds
-  Import took 0.031173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.634048 seconds.
-  path: Assets/Scenes/nivel4.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/nivel4.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0e0b1884e67c957ac2710c7d30c300') in 0.011280 seconds
-  Import took 0.018678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.726885 seconds.
-  path: Assets/Scenes/nivel5.unity
-  artifactKey: Guid(45989cbd3f45faa418ccb6b1292db264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/nivel5.unity using Guid(45989cbd3f45faa418ccb6b1292db264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cc5d3d726d28a075ce1bed1f4dd4e3') in 0.010079 seconds
-  Import took 0.017206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 399.350824 seconds.
-  path: Assets/Objects/Tablero2
-  artifactKey: Guid(8210f962a7b79b64c9ef612713518426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero2 using Guid(8210f962a7b79b64c9ef612713518426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e29a0c6c75c586dc2d1a616def1fb1') in 0.033343 seconds
-  Import took 0.041287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.078968 seconds.
-  path: Assets/Objects/Tablero2/tinker 1.obj
-  artifactKey: Guid(0ae9667e100d87a46982b455b9813a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero2/tinker 1.obj using Guid(0ae9667e100d87a46982b455b9813a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087180f42d339cbd59ce487d24065d62') in 0.285235 seconds
-  Import took 0.291528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/Objects/Tablero2/tinker 2.obj
-  artifactKey: Guid(e08312f47a6ab2f49861682882fb9b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero2/tinker 2.obj using Guid(e08312f47a6ab2f49861682882fb9b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486b176fce87899851b7a50927960eb8') in 0.108770 seconds
-  Import took 0.116074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/Objects/Tablero2/tinker.obj
-  artifactKey: Guid(3a7d25a6773bc07488f47f88fed693be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero2/tinker.obj using Guid(3a7d25a6773bc07488f47f88fed693be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595019523497b2401279a7273e17cbf') in 0.143102 seconds
-  Import took 0.150287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.874727 seconds.
-  path: Assets/Objects/Tablero5
-  artifactKey: Guid(2d46bc519af737a4c998e65cdeb992fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero5 using Guid(2d46bc519af737a4c998e65cdeb992fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055f2a25c14007dcfd165d63ab585820') in 0.033289 seconds
-  Import took 0.041465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.950082 seconds.
+  Time since last request: 2247.215620 seconds.
   path: Assets/Objects/Tablero5/Estadio.obj
   artifactKey: Guid(05b58aa1290e45f4c882cf6ad5b827df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero5/Estadio.obj using Guid(05b58aa1290e45f4c882cf6ad5b827df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebac24559b1770dc5dd5c70da130eac') in 0.260857 seconds
-  Import took 0.269749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000788 seconds.
-  path: Assets/Objects/Tablero5/FarosChicos.obj
-  artifactKey: Guid(97ef4f45148a109459e31e170aefc2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero5/FarosChicos.obj using Guid(97ef4f45148a109459e31e170aefc2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06e7ff8acbc5e10a35c57a91b99ef32') in 0.102594 seconds
-  Import took 0.111306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000854 seconds.
-  path: Assets/Objects/Tablero5/FarosGrandes.obj
-  artifactKey: Guid(cc98d389809e7024389a543a6ae5b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero5/FarosGrandes.obj using Guid(cc98d389809e7024389a543a6ae5b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9292539e2600873d3d84627330a95e7c') in 0.119874 seconds
-  Import took 0.127116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 402.887845 seconds.
-  path: Assets/Objects/Bordes Tablero/borde1.obj
-  artifactKey: Guid(76493675f3d4aab43b2114c68bca4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Bordes Tablero/borde1.obj using Guid(76493675f3d4aab43b2114c68bca4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd83ebaec320a1b6e4df5529c8a165c') in 0.100163 seconds
-  Import took 0.108542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000882 seconds.
-  path: Assets/Objects/Bordes Tablero/borde2.obj
-  artifactKey: Guid(6fe4d37d3753925449f54d666c0bd762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Bordes Tablero/borde2.obj using Guid(6fe4d37d3753925449f54d666c0bd762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766329db21407bbe73dc102e123685b4') in 0.096911 seconds
-  Import took 0.104864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.343109 seconds.
-  path: Assets/Objects/Corner/tinker.obj
-  artifactKey: Guid(7c32880e9377a9440915ea8adb3e00f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Corner/tinker.obj using Guid(7c32880e9377a9440915ea8adb3e00f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab61013453779490f19770a0825faa9e') in 0.076191 seconds
-  Import took 0.084206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.833673 seconds.
-  path: Assets/Objects/Drop targets/DropsTargets2.prefab
-  artifactKey: Guid(2101ad1ffe6203d43be01884dae91df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Drop targets/DropsTargets2.prefab using Guid(2101ad1ffe6203d43be01884dae91df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751c739348b20ed22163c92b1d5cf445') in 0.048941 seconds
-  Import took 0.055791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.001060 seconds.
-  path: Assets/Objects/Wire ramps/WireRamps.prefab
-  artifactKey: Guid(8dc996292d3588b4f8c96c9eb4bc74cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Wire ramps/WireRamps.prefab using Guid(8dc996292d3588b4f8c96c9eb4bc74cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b887edf3c92bb1825b3839d547c7577d') in 0.062387 seconds
-  Import took 0.070700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.576134 seconds.
-  path: Assets/Objects/Target/tinker.obj
-  artifactKey: Guid(e3a2153a43b78554ab4f85783ccddcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Target/tinker.obj using Guid(e3a2153a43b78554ab4f85783ccddcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc48e88bed58b2f18844ba6466b0317') in 0.090132 seconds
-  Import took 0.097636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 840.454092 seconds.
-  path: Assets/Objects/Tablero5/letrasCampNou.obj
-  artifactKey: Guid(3931fccd5d6c6824193b0f6b04b51978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Tablero5/letrasCampNou.obj using Guid(3931fccd5d6c6824193b0f6b04b51978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f193efa9d82ba70a0e2d959479fdab1') in 0.097907 seconds
-  Import took 0.105682 seconds .
+Start importing Assets/Objects/Tablero5/Estadio.obj using Guid(05b58aa1290e45f4c882cf6ad5b827df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759d59ace9f1f8c995f0ab49da47d0a0') in 0.249856 seconds
+  Import took 0.257430 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
