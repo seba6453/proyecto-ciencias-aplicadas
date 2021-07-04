@@ -665,7 +665,7 @@ GameObject:
   - component: {fileID: 769225136481143884}
   m_Layer: 0
   m_Name: DropTargets
-  m_TagString: Untagged
+  m_TagString: drop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -90,4 +90,9 @@ public class control : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(next_scene);
     }
+
+    public void reset_ball()
+    {
+        restart_ball();
+    }
 }
