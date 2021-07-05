@@ -2,23 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.UI;
 
 public class ScoreUI : MonoBehaviour
 {
     public RowUI rowUI;
     public ScoreManager scoreManager;
+    public Text score;
+    public Text jugador;
     // Start is called before the first frame update
     void Start()
     {
-        scoreManager.AddScore(new Score("Juan",10));
-        scoreManager.AddScore(new Score("Pedro",80));
+        scoreManager.AddScore(new Score(jugador,score));
 
         var scores = scoreManager.GetHighScores().ToArray();
         for (int i = 0; i < scores.Length; i++)
         {
             var row = Instantiate(rowUI,transform).GetComponent<RowUI>();
             row.rank.text = (i+1).ToString();
-            row.Name.text = scores[i].Name;
+            row.Name = scores[i].Name;
             row.score.text = scores[i].score.ToString();
         }
     }
