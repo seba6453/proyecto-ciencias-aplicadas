@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class control : MonoBehaviour
 {
+    public Control_luces []lucesC;
     public GameObject colisionador_fin;
 
     public tilt arcade;
@@ -83,6 +84,10 @@ public class control : MonoBehaviour
         count = 0;
         restart_ball();
         GetComponent<Marcador>().score = 0;
+        for (int i = 0;i < lucesC.Length;i++)
+        {
+            lucesC[i].reset();
+        }
     }
 
     public void button_main_menu(string next_scene)
