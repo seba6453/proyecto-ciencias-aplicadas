@@ -8,11 +8,12 @@ public class ScoreUI : MonoBehaviour
 {
     public RowUI rowUI;
     public ScoreManager scoreManager;
-    public Text score;
+   
     public Text jugador;
-    // Start is called before the first frame update
-    void Start()
+    
+    public void IngresarRank(Text score)
     {
+
         scoreManager.AddScore(new Score(jugador,score));
 
         var scores = scoreManager.GetHighScores().ToArray();
@@ -23,6 +24,7 @@ public class ScoreUI : MonoBehaviour
             row.Name = scores[i].Name;
             row.score.text = scores[i].score.ToString();
         }
+        
     }
 
 }
