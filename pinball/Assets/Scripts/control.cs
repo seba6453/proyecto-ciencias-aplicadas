@@ -50,7 +50,7 @@ public class control : MonoBehaviour
     {
         if (collision.gameObject.name == colisionador_fin.gameObject.name) 
         {
-            count +=1;
+            count +=3;
             restart_ball();
         }
     }
