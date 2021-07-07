@@ -10,9 +10,6 @@ namespace Name.boards{
         [SerializeField] private Transform highScoresHolder = null;
         [SerializeField] private GameObject boardEntryObject = null;
 
-        [Header("Test")]
-        [SerializeField] EntryData testEntryData = new EntryData();
-
         private string SavePath => $"{Application.persistentDataPath}/highscores.json";
 
         private void Start(){
@@ -22,10 +19,12 @@ namespace Name.boards{
             SaveScores(savedData);
         }
 
-        [ContextMenu("Add test Entry")]
-        public void AddTest(){
-            AddEntry(testEntryData);
-        }
+        /*public void AddNewEntry(string s, float f){
+            EntryData entryData = new EntryData();
+            entryData.entryName = s;
+            entryData.entryscore = f;
+            AddEntry(entryData);
+        }*/
 
         public void AddEntry(EntryData entryData){
             SavedData savedData = GetSavedScores();

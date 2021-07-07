@@ -542,7 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884451058281616750, guid: 4b032b458d0a423488a0b75c693ef88e, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8884451058281616750, guid: 4b032b458d0a423488a0b75c693ef88e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3359,7 +3359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 770874845989762097, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 770874845989762097, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4877,6 +4877,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1590523963}
   - {fileID: 224200975}
   - {fileID: 1035648978}
   - {fileID: 1613231369}
@@ -5011,6 +5012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   control: {fileID: 1622991835}
+  board: {fileID: 5155247633824280944, guid: adebd712b231b324dacda1db549fba2b, type: 3}
 --- !u!4 &1590523963
 Transform:
   m_ObjectHideFlags: 0
@@ -5018,12 +5020,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590523961}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 77.88084, y: 194.76207, z: 23.754118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -882.11914, y: -345.2379, z: 23.754118}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1573925612}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1594485299
 GameObject:
@@ -5197,7 +5199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5656701766431711087, guid: 822b7b31caa604e43aad1ef950bb1fef, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5656701766431711087, guid: 822b7b31caa604e43aad1ef950bb1fef, type: 3}
       propertyPath: m_AnchorMax.x
