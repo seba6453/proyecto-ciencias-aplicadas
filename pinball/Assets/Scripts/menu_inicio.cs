@@ -11,6 +11,7 @@ public class menu_inicio : MonoBehaviour
     public GameObject panel2; //sonido
 
     public GameObject panel3; //niveles
+    public GameObject panel4; //ranking
 
     public Text porcentage_music; //porcentage de la musica ambiente
 
@@ -24,6 +25,7 @@ public class menu_inicio : MonoBehaviour
         panel1.SetActive(true);
         panel2.SetActive(false);
         panel3.SetActive(false);
+        panel4.SetActive(false);
         slider_music(); //inicializa la musica en la barra
         slider_effect(); //inicializa los sonidos de la barra
     }
@@ -54,6 +56,16 @@ public class menu_inicio : MonoBehaviour
     public void start_back(){ //vuelve al menu inicial desde los niveles
         panel1.SetActive(true);
         panel3.SetActive(false);
+    }
+
+    public void back_rank(){ //vuelve al menu inicial desde el ranking
+        panel1.SetActive(true);
+        panel4.SetActive(false);
+    }
+
+    public void start_rank(){
+        panel4.SetActive(true);
+        panel1.SetActive(false);
     }
 
     public void play(){ //ingresa a los niveles
