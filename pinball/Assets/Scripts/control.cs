@@ -25,7 +25,6 @@ public class control : MonoBehaviour
     public GameObject slider;
 
     public Text score;
-    public ScoreUI scoreUI;
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -51,7 +50,7 @@ public class control : MonoBehaviour
     {
         if (collision.gameObject.name == colisionador_fin.gameObject.name) 
         {
-            count +=3;
+            count +=1;
             restart_ball();
         }
     }
@@ -68,7 +67,6 @@ public class control : MonoBehaviour
         Time.timeScale = 0f;
         active(true);
         score.text = "Score: " + GetComponent<Marcador>().score;
-        scoreUI.IngresarRank(score);
     }
 
     private void active(bool conf)
