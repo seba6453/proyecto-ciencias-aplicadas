@@ -861,7 +861,7 @@ MonoBehaviour:
   menu_final: {fileID: 1853571295}
   menu_pausa: {fileID: 505539951}
   slider: {fileID: 923534240}
-  score: {fileID: 1608425959}
+  score: {fileID: 0}
 --- !u!1001 &493452430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3845,6 +3845,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8904733538614925582, guid: 735cf5a15f4aadd4791d64fd71b5b1b8, type: 3}
+      propertyPath: marcador
+      value: 
+      objectReference: {fileID: 477025473}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 735cf5a15f4aadd4791d64fd71b5b1b8, type: 3}
 --- !u!224 &1478228711 stripped
@@ -4165,17 +4169,6 @@ Transform:
   m_Father: {fileID: 1079494991}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -12.498, y: 0.603, z: 0}
---- !u!114 &1608425959 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 770874847159111572, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
-  m_PrefabInstance: {fileID: 493452430}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1618305998
 GameObject:
   m_ObjectHideFlags: 0
