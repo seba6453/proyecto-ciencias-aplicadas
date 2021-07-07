@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class control : MonoBehaviour
 {
+    private AudioSource audioS;
+    public static float volumen;
+
     public Control_luces []lucesC;
     public GameObject colisionador_fin;
 
@@ -25,6 +28,8 @@ public class control : MonoBehaviour
 
     public GameObject slider;
 
+    public AudioClip effect;
+
     public Text score;
     void Awake()
     {
@@ -36,6 +41,8 @@ public class control : MonoBehaviour
     {
         menu_final.SetActive(false);
         restart_ball();
+
+        audioS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,6 +56,9 @@ public class control : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        volumen = AudioSettings.audioSettings.GetSFXVolume();
+        audioS.PlayOneShot(effect,volumen);
+
         if (collision.gameObject.name == colisionador_fin.gameObject.name) 
         {
             count +=1;
