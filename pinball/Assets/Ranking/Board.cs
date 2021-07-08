@@ -19,12 +19,12 @@ namespace Name.boards{
             SaveScores(savedData);
         }
 
-        /*public void AddNewEntry(string s, float f){
+        public void AddNewEntry(string s, float f){
             EntryData entryData = new EntryData();
             entryData.entryName = s;
             entryData.entryscore = f;
             AddEntry(entryData);
-        }*/
+        }
 
         public void AddEntry(EntryData entryData){
             SavedData savedData = GetSavedScores();
@@ -53,7 +53,7 @@ namespace Name.boards{
 
         private void UpdateUI(SavedData saveData){
             foreach(Transform child in highScoresHolder){
-                Destroy(child.gameObject);
+                DestroyImmediate(child.gameObject,true);
             }
 
             foreach(EntryData highscore in saveData.highscores){
