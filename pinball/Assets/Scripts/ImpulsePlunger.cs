@@ -10,7 +10,7 @@ public class ImpulsePlunger : MonoBehaviour
         Debug.Log(colision.gameObject.name);
         if(colision.gameObject.name == "Ball"){
             rb = colision.gameObject.GetComponent<Rigidbody>();
-            rb.AddForce(Vector3.forward *150f);
+            rb.AddForce(Vector3.forward *200f);
         }
     }
 }
