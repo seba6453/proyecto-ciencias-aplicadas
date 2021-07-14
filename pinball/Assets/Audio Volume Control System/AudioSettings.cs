@@ -46,7 +46,7 @@ public class AudioSettings : MonoBehaviour
 
     public void ChangeMusicVolume(float newVolume)
     {
-        musicVolume = newVolume;
+        musicVolume = newVolume / 100;
         PlayerPrefs.SetFloat(musicVolumeDataName, musicVolume);
         SetVolumeToAudioSources(musicAudioSources, musicVolume);
     }
@@ -54,7 +54,7 @@ public class AudioSettings : MonoBehaviour
 
     public void ChangSFXVolume(float newVolume)
     {
-        sfxVolume = newVolume;
+        sfxVolume = newVolume / 100;
         PlayerPrefs.SetFloat(sfxVolumeDataName, sfxVolume);
         SetVolumeToAudioSources(sfxAudioSources, sfxVolume);
     }

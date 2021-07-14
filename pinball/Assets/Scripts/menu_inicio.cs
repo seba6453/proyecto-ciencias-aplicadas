@@ -39,12 +39,12 @@ public class menu_inicio : MonoBehaviour
     }
 
     public void slider_music(){ //cambia los valores del porcentage de la barra de musica
-        string texto = (Music.value * 100).ToString() + "%";
+        string texto = (Music.value).ToString() + "%";
         porcentage_music.text = texto;
     }
 
     public void slider_effect(){ //cambia los valores del porcentage de la barra de sonido
-        string texto = (Effect.value * 100).ToString() + "%";
+        string texto = (Effect.value).ToString() + "%";
         porcentage_effect.text = texto;
     }
 
