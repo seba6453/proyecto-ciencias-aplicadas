@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5665,7 +5665,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d355ea81ad23c1e4a8acac9bccc14ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lucesC: []
+  lucesC:
+  - {fileID: 1133882640}
+  - {fileID: 454399791}
   colisionador_fin: {fileID: 1626607811}
   arcade: {fileID: 834209462}
   posicion_inicial: {x: 256, y: 97.3, z: 80.2}
@@ -5675,6 +5677,7 @@ MonoBehaviour:
   slider: {fileID: 412247436}
   effect: {fileID: 8300000, guid: d3f6554a24b87084094e7caf3e8a712c, type: 3}
   score: {fileID: 948070841}
+  disparadores: []
 --- !u!114 &1843254875
 MonoBehaviour:
   m_ObjectHideFlags: 0

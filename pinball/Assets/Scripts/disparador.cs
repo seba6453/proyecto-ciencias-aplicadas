@@ -6,6 +6,7 @@ public class disparador : MonoBehaviour
 {
 
     public GameObject disparador1;
+    public GameObject pared;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +25,11 @@ public class disparador : MonoBehaviour
         {
             disparador1.SetActive(true);
         }
+    }
+
+    public void resetPared()
+    {
+        pared.SetActive(false);
+        disparador1.SetActive(false);
     }
 }

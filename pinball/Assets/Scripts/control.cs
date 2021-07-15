@@ -31,6 +31,8 @@ public class control : MonoBehaviour
     public AudioClip effect;
 
     public Text score;
+
+    public disparador[] disparadores;
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -71,6 +73,10 @@ public class control : MonoBehaviour
         arcade.reset();
         transform.position = posicion_inicial;
         rb.velocity = new Vector3(0, 0, 0);
+        for (int i = 0;i<disparadores.Length;i++)
+        {
+            disparadores[i].resetPared();
+        }
     }
 
     private void final()

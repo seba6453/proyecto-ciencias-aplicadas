@@ -906,7 +906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d355ea81ad23c1e4a8acac9bccc14ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lucesC: []
+  lucesC:
+  - {fileID: 1852677255}
+  - {fileID: 975078162}
   colisionador_fin: {fileID: 592869497}
   arcade: {fileID: 1079494992}
   posicion_inicial: {x: 144.1, y: 224.9, z: -19.29}
@@ -916,6 +918,7 @@ MonoBehaviour:
   slider: {fileID: 923534240}
   effect: {fileID: 8300000, guid: d3f6554a24b87084094e7caf3e8a712c, type: 3}
   score: {fileID: 2032355040}
+  disparadores: []
 --- !u!114 &477025480
 MonoBehaviour:
   m_ObjectHideFlags: 0
