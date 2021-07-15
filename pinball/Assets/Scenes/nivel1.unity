@@ -3908,10 +3908,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1843254874}
+    - target: {fileID: 770874846420512056, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: button_main_menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 770874846420512056, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: control, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 770874846749311513, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1843254874}
+    - target: {fileID: 2184618215481492155, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: nivel2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad4489494b6c1144e8bf6f584f034205, type: 3}
 --- !u!1001 &1276740685
