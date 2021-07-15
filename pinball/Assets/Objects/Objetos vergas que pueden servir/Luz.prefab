@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3538050217138046291}
   - component: {fileID: 3538050217138046290}
   m_Layer: 0
-  m_Name: Circle (2)
+  m_Name: Luz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae41fcab877a2eb40bafe4a7aed09246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntaje: 100
+  puntaje: 200
 --- !u!135 &3538050217138046290
 SphereCollider:
   m_ObjectHideFlags: 0

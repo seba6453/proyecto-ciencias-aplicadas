@@ -5,7 +5,6 @@ using UnityEngine;
 public class disparador : MonoBehaviour
 {
 
-    public GameObject pared;
     public GameObject disparador1;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +22,7 @@ public class disparador : MonoBehaviour
     {
         if(col.gameObject.CompareTag("Ball"))
         {
-            pared.SetActive(true);
+            disparador1.SetActive(true);
         }
     }
 }

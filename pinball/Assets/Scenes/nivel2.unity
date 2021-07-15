@@ -795,9 +795,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  puntaje_bumper: 200
-  puntaje_DropT: 300
-  puntaje_plunger: 500
+  numeroBumper: 3
+  puntaje_bumper: 500
+  puntaje_DropT: 1000
+  puntaje_Slingshot: 250
   luces:
   - {fileID: 1852677255}
   - {fileID: 975078162}

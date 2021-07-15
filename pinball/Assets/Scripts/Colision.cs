@@ -42,5 +42,6 @@ public class Colision : MonoBehaviour
         col.enabled = true;
         cantDT += 1;
         couroutineStarted = false;
-   } 
+   }
+
 }
