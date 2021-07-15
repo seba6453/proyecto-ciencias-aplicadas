@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -758,6 +758,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 76493675f3d4aab43b2114c68bca4f9a, type: 3}
   m_PrefabInstance: {fileID: 1937416128}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &240805038 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8904733538614925583, guid: 735cf5a15f4aadd4791d64fd71b5b1b8, type: 3}
+  m_PrefabInstance: {fileID: 8904733538236008972}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &247214967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1896,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 0.01
   m_Drag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 90
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 2
@@ -1962,7 +1973,7 @@ Transform:
   m_GameObject: {fileID: 526526896}
   m_LocalRotation: {x: -0.04207852, y: -0, z: -0, w: 0.99911433}
   m_LocalPosition: {x: 348.1, y: 228.1, z: 569.5}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 12, y: 12, z: 12}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1990,7 +2001,7 @@ MonoBehaviour:
   menu_pausa: {fileID: 661389330}
   slider: {fileID: 626680094}
   effect: {fileID: 8300000, guid: d3f6554a24b87084094e7caf3e8a712c, type: 3}
-  score: {fileID: 0}
+  score: {fileID: 240805038}
 --- !u!114 &526526904
 MonoBehaviour:
   m_ObjectHideFlags: 0
